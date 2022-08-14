@@ -3,14 +3,13 @@
 ## 支持应用
 
 - 😋兼容良好 😔不尽人意 😥无法深色 🥰官方深色
-- 
 - 😋淘宝（com.taobao.taobao）
 - 😔闲鱼（com.taobao.idlefish）
 - 阿里巴巴（com.alibaba.wireless）
 - TIM（com.tencent.tim）
 - 拼多多（com.xunmeng.pinduoduo）
 
-## 其他修改
+## 其他事项
 
 - 本次已装载74个配置文件
 
