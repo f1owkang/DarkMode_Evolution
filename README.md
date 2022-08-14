@@ -6,7 +6,7 @@
 - 😋淘宝（com.taobao.taobao）
 - 😔闲鱼（com.taobao.idlefish）
 - 😔阿里巴巴（com.alibaba.wireless）
-- 😥（com.tencent.tim）
+- 😥TIM（com.tencent.tim）
 - 😥拼多多（com.xunmeng.pinduoduo）
 
 ## 其他事项
