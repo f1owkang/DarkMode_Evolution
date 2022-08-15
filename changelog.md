@@ -1,3 +1,19 @@
+# 22.08.15
+
+## 重要修改
+
+- 修正了脚本问题
+- 修复拼多多（com.xunmeng.pinduoduo）
+- 修正TIM（com.tencent.tim）效果
+- 支付宝（com.eg.android.AlipayGphone）
+
+
+## 其他修改
+
+- 已统计配置文件模板
+- 已知交管12123（com.tmri.app.main）失效
+
+
 # 22.08.14
 
 ## 重要部分
@@ -12,9 +28,3 @@
 ## 其他修改
 
 - 本次已装载74个配置文件
-
-# 捐赠
-
-如果你喜欢我这个项目，请多多提交Pr吧，谢谢！
-
-Made with ♥（Thanks Github@MIUI-Monet-Project）.
