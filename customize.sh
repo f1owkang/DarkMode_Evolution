@@ -20,16 +20,19 @@ ui_print "
  ****************************
  "
  sleep 0.05
- ui_print "* 仅适用于运行MIUI的设备"
+ ui_print " * 仅适用于运行MIUI的设备"
  sleep 0.05
- ui_print "* 其他设备安装可能造成未知影响！"
+ ui_print " * 其他设备安装可能造成未知影响！"
  sleep 0.05
- ui_print "* Telegram Group: @darkp_miui "
+ ui_print " * Telegram Group: @darkp_miui "
 }
 
 #开始安装（shell命令）
 on_install() {
-install_module
+    ui_print " "
+    ui_print " - Extracting module files"
+    unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+#install_module
 #abort 
 #用于停止/清除安装时需要的命令，正常情况下用不到，请删除后写入你的shell命令。
 }

@@ -4,4 +4,4 @@ version=22.08.14
 versionCode=14
 author=lxdebug
 description=MIUI13深色模式补全，已装载74个配置文件.
-updateJson=https://raw.githubusercontent.com/LxDebug/DarkP/main/update.json
+updateJson="https://raw.githubusercontent.com/LxDebug/DarkP/main/update.json"
