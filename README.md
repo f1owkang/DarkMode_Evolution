@@ -8,7 +8,7 @@
 - 😋阿里巴巴（com.alibaba.wireless）
 - 😔TIM（com.tencent.tim）
 - 😋拼多多（com.xunmeng.pinduoduo）
-- 😥高德地图（com.autonavi.minimap）
+- 😋高德地图（com.autonavi.minimap）
 - 😔铁路12306（com.MobileTicket）
 - 😔支付宝（com.eg.android.AlipayGphone）
 
