@@ -20,7 +20,7 @@ ui_print "
  ****************************
  "
  sleep 0.05
- ui_print " * 仅适用于运行MIUI的设备"
+ ui_print " * 仅适用于运行 MIUI 13 的设备"
  sleep 0.05
  ui_print " * 其他设备安装可能造成未知影响！"
  sleep 0.05
