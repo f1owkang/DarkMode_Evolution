@@ -1,0 +1,612 @@
+{
+  "packageName": "com.sankuai.meituan",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "QRHomeActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "newmain.NewMainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "TabIndicator",
+              "parent": 1,
+              "index": -1,
+              "id": "ll_main_tab_indicator"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "TabIndicator",
+              "parent": 2,
+              "index": -1,
+              "id": "ll_main_tab_indicator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "homepage.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "pt.homepage.tab",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "TabBlock",
+              "parent": 1,
+              "index": -1,
+              "id": "bottom_tab_block"
+            }
+          ]
+        },
+        {
+          "viewName": "pt.homepage.tab",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "TabBlock",
+              "parent": 2,
+              "index": -1,
+              "id": "bottom_tab_block"
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 2,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "TabBlock",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 2,
+          "conditions": [
+            {
+              "viewName": "LithoView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "mbc.ui.nest",
+              "parent": 4,
+              "index": -1,
+              "id": "mbc_recycler"
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "viewName": "ComponentHost",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LithoView",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RoundFrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "viewName": "LithoView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RoundFrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LithoView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HorizontalScrollerIndictatorViewForLitho",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "mtm_popup_menu_item_icon",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "id": "ll_top_bar",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "shopping_favor_root_fragment"
+            }
+          ]
+        },
+        {
+          "viewName": "com.sankuai.meituan.mbc.ui.RoundFrameLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.sankuai.meituan.mbc.ui.nest",
+              "index": -1,
+              "id": "mbc_recycler"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "mbc_content_inner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.hotel.reuse.homepage.HotelPoiListFrontActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "RCTRoundImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "react.views.scroll",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "react.views.scroll",
+              "parent": 3,
+              "index": -1
+            },
+            {
+              "viewName": "springscrollview",
+              "parent": 7,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "RCTRoundImageView",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "react.views.view",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "react.views.view",
+              "parent": 3,
+              "index": -1
+            },
+            {
+              "viewName": "MRNRootView",
+              "parent": 4,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "waimai.business.restaurant.poicontainer.WMRestaurantActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "layout_restaurant_vipcard_mach_rootview"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.traveltools.mrncontainer.HTMRNBaseActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "RCTRoundImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "react.views.view",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "react.views.scroll",
+              "parent": 4,
+              "index": -1
+            },
+            {
+              "viewName": "react.views.scroll",
+              "parent": 5,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.generalcategories.picassomodule.activity.PicassoCommonBusinessActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "PicassoImageView",
+          "forceDark": true,
+          "usage": 2,
+          "conditions": [
+            {
+              "viewName": "PicassoGroupView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "PicassoView",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.food.homepage.FoodHomePageActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "PicassoImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "PicassoGroupView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "PicassoView",
+              "parent": 2,
+              "index": -1,
+              "id": "picasso_root"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.meituan.search.home.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "search.home.v2.view.tag",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "SearchCloudLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "search_cloud_layout"
+            }
+          ]
+        },
+        {
+          "viewName": "LinearLayout",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RecyclerView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "main"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.mmp.lib.HeraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "mmp.lib.page.view",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 4,
+              "index": -1,
+              "id": "web_layout"
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.business.page.homepage.TakeoutActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "waimai.mach.widget",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 4,
+              "index": -1,
+              "id": "module_container"
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "waimai.mach.widget",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 4,
+              "index": -1,
+              "id": "layout_platinum_banner_rootview"
+            },
+            {
+              "viewName": "waimai.mach.widget",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.pt.homepage.shoppingcart.together.ShoppingCartWithFavorActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "LithoView",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RoundFrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.order.OrderCenterListActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "LinearLayout",
+          "forceDark": true,
+          "usage": 1,
+          "id": "order_item",
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meituan.android.mrn.container.MRNBaseActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "RCTRoundImageView",
+          "forceDark": false
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.sankuai.waimai.mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "com.sankuai.waimai.mach.widget",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "android.widget.LinearLayout",
+              "parent": 6,
+              "index": -1,
+              "id": "ll_order_status_list_area"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "android.widget.LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "android.widget.LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "order_detail_custom_layout"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "TagCanvasView",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "LinearGradientView",
+      "forceDark": true,
+      "usage": 1
+    },
+    {
+      "viewName": "AppCompatImageView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "id": "iv_back"
+    },
+    {
+      "viewName": "AppCompatTextView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "id": "txt_title"
+    },
+    {
+      "viewName": "LottieAnimationView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "id": "lottie_animation_style_title"
+    },
+    {
+      "viewName": "RoundRectImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "WebView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "LithoView",
+      "forceDark": true,
+      "usage": 1
+    }
+  ]
+}

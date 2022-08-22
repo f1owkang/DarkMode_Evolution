@@ -1,0 +1,48 @@
+{
+  "packageName": "com.yitong.mbank.psbc",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.yitong.mbank.psbc.android.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "RadioButton",
+          "backgroundUsage": 103
+        },
+        {
+          "forceDark": true,
+          "viewName": "RadioGroup",
+          "backgroundUsage": 103
+        },
+        {
+          "forceDark": true,
+          "viewName": "LinearLayout",
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "CardView",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "RelativeLayout",
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "CardView",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

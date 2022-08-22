@@ -1,0 +1,69 @@
+{
+  "packageName": "com.hpbr.bosszhipin",
+  "forceDark": true,
+  "mainRule": 128,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.hpbr.bosszhipin.module.main.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ZPUIBadgeView",
+          "forceDark": true,
+          "usage": 103,
+          "id": "iv_general_settings"
+        }
+      ]
+    },
+    {
+      "activityName": "com.hpbr.bosszhipin.module.resume.MyResumeEditActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ZPUIFrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.hpbr.bosszhipin.search.geek.activity.GeekSearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 105,
+          "backgroundUsage": 105,
+          "conditions": [
+            {
+              "viewName": "RecyclerView",
+              "parent": 0,
+              "index": 0,
+              "id": "recyclerView_lable_filter"
+            },
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "smtt.sdk.WebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

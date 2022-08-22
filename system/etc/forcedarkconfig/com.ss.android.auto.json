@@ -1,0 +1,57 @@
+{
+  "packageName": "com.ss.android.auto",
+  "forceDark": true,
+  "mainRule": 144,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.article.base.feature.search.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "SimpleDraweeView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "VisibilityDetectableViewV2",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "ConstraintLayout",
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "VisibilityDetectableViewV2",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "AppCompatImageView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "id": "iv_back"
+    }
+  ]
+}

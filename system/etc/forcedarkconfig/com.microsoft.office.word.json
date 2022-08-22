@@ -1,0 +1,11 @@
+{
+  "packageName": "com.microsoft.office.word",
+  "forceDark": true,
+  "mainRule": 17,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "apphost.LaunchActivity",
+      "forceDark": false
+    }
+  ]
+}

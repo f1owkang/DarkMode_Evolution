@@ -1,0 +1,197 @@
+{
+  "packageName": "com.chinamworld.bocmbci",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.boc.bocsoft.mobile.bocmobile.buss.system.main.ui.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "MerchantTabView",
+              "parent": 4,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "id": "img_right",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "ll_right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.boc.bocsoft.mobile.bocmobile.buss.bocfinance.product.home.ui.BocFinanceActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "bt_action"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_yjjz_tip"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_right_type"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_right_value"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "type_next"
+        },
+        {
+          "forceDark": false,
+          "viewName": "LinearLayout",
+          "id": "ll_second"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_left_type"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_left_value"
+        },
+        {
+          "forceDark": false,
+          "viewName": "LinearLayout",
+          "id": "type_num"
+        },
+        {
+          "forceDark": false,
+          "viewName": "FrameLayout",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "ll_first_type"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_scale_flag"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_title"
+        },
+        {
+          "forceDark": false,
+          "viewName": "TextView",
+          "id": "tv_name"
+        },
+        {
+          "forceDark": false,
+          "viewName": "LinearLayout",
+          "id": "ll_first_type"
+        },
+        {
+          "forceDark": false,
+          "viewName": "RelativeLayout",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "ll_hot_bg"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "LinearLayout",
+          "conditions": [
+            {
+              "viewName": "BannerLoopViewPager",
+              "parent": 0,
+              "index": -1,
+              "id": "cbLoopViewPager"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "BannerLoopViewPager",
+          "id": "cbLoopViewPager"
+        }
+      ]
+    },
+    {
+      "activityName": "com.boc.bocsoft.mobile.bocmobile.base.activity.generalcontainer.GeneralCordovaActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "SystemWebView",
+          "blackMask": true
+        }
+      ]
+    },
+    {
+      "activityName": "com.boc.bocsoft.mobile.bocmobile.buss.customerservice.common.activity.CustomerServiceActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "XRecyclerView",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "ImageView",
+      "forceDark": false,
+      "id": "iv_finance_banner"
+    }
+  ]
+}

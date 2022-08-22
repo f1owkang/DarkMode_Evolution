@@ -1,0 +1,73 @@
+{
+  "packageName": "com.chinamworld.main",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ccb.start.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "RadioButton",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RadioGroup",
+              "parent": 0,
+              "index": -1,
+              "id": "nar_bar"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "CcbNoScrollWebView",
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "CcbFrameLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "fl_content"
+            },
+            {
+              "viewName": "CcbFrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "fl_container"
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "title_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ccb.home.view.search.view.HomeMainPlusSearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "iv_background",
+          "conditions": [
+            {
+              "viewName": "CardView",
+              "parent": 1,
+              "index": -1,
+              "id": "boss_cl_device"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

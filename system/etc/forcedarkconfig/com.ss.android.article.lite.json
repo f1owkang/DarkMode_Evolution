@@ -1,0 +1,297 @@
+{
+  "packageName": "com.ss.android.article.lite",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.article.lite.activity.SplashActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "base.feature.main",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "CropRelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HomePageSearchBar",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "AsyncImageView",
+          "conditions": [
+            {
+              "viewName": "ListViewPager",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "FeedTopBanner",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 2,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HomePageRelativeLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "behavior.ui.view.AndroidView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "AndroidScrollView",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "ImpressionLinearLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "FrescoImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 3,
+              "viewName": "ImpressionLinearLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.article.base.feature.category.activity.CategoryExpandActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatTextView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "DragGridView",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.live.host.livehostimpl.LivePlayerActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "FrameLayout",
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "action_area"
+            },
+            {
+              "viewName": "GridLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "grid_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.newugc.forum.ConcernDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AndroidView",
+          "usage": 2,
+          "conditions": [
+            {
+              "viewName": "NewLynxDocker$NewLynxView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "lynx_bottom_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.ugc.publishcommon.mediamaker.hotboard.CreationHotBoardActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "BaseHeaderViewPager",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 1,
+          "id": "title_bar_category_gradient"
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.newmedia.activity.browser.BrowserActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "article.common",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "article.common",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "NestRelativeLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.publish.send.TTSendPostActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "EmojiBoard",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.newugc.detail.UgcDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "NewUserActionStripView",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "NestFrameLayout",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "NestLinearLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.ug.sdk.luckycat.impl.lynx.LuckyCatLynxActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "LynxView",
+          "forceDark": true,
+          "usage": 104
+        }
+      ]
+    },
+    {
+      "activityName": "com.tt.miniapp.container.MiniAppContainerActivity0",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.tt.miniapp.container.MiniAppContainerActivity1",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.ss.android.article.common.ThumbPreviewActivity",
+      "forceDark": false
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "NightModeAsyncImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "WatermarkImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LayerHostMediaLayout",
+      "forceDark": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "packageName": "com.ss.android.ugc.aweme",
+  "forceDark": true,
+  "mainRule": 129,
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "CheckableImageView",
+      "forceDark": true,
+      "backgroundUsage": 103
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "packageName": "com.ss.android.article.news",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.live.host.livehostimpl.LivePlayerTransActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "FrameLayout",
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "action_area"
+            },
+            {
+              "viewName": "GridLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "grid_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.newmedia.activity.browser.BrowserActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "article.common",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "article.common",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "NestRelativeLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.template.page.MainLynxActivity",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.android.bytedance.search.SearchActivity",
+      "forceDark": true
+    },
+    {
+      "activityName": "com.ss.android.article.news.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "lynx.tasm.behavior.ui.scroll",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "NewLynxDocker",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "ImpressionLinearLayout",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "NewLynxDocker",
+              "parent": 4,
+              "index": -1
+            },
+            {
+              "viewName": "ImpressionLinearLayout",
+              "parent": 5,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "FrescoImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "NewLynxDocker",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tt.miniapp.container.MiniAppContainerActivity0",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.tt.miniapp.container.MiniAppContainerActivity1",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.bytedance.ugc.profile.user.profile.TouTiaoUserProfileActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "PersonBrandLayout",
+          "forceDark": false
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.article.base.feature.category.activity.CategoryExpandActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "TextView",
+          "forceDark": true,
+          "usage": 2
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.ugc.UgcDetailInfoActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "FrameLayout",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "DynamicDiggToolBar",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.ugc.publishcommon.mediamaker.hotboard.CreationHotBoardActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "BaseHeaderViewPager",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "CreationHotBoardTitleBar",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.account.v3.view.NewAccountLoginActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 4,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.detail.feature.detail2.view.NewDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "DynamicDiggToolBar",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "com.ss.android.image",
+          "conditions": [
+            {
+              "viewName": "com.bytedance.bytewebview",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.novel.view.NovelReaderActivity",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.bytedance.audio.b.page.AudioPlayerActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "AppCompatImageView",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "AudioSuperSlidingDrawer",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.mediachooser.image.ImagePreviewActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.bytedance.ugc.publishwenda.tiwen.TiWenActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "SlideFrameLayout",
+              "parent": 8,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "NightModeAsyncImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "WatermarkImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "GifImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "UgcPlayableView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LargeZoomImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LayerHostMediaLayout",
+      "forceDark": false
+    }
+  ]
+}

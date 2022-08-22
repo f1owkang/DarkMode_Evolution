@@ -1,0 +1,36 @@
+{
+  "packageName": "com.chaoxing.mobile",
+  "forceDark": true,
+  "mainRule": 17,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.chaoxing.mobile.login.ui.InvitationCodeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatEditText",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "etInvitationCode"
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "DynamicItemImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "NoteDetailWebView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "ScrollWebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

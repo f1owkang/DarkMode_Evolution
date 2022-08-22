@@ -1,0 +1,30 @@
+{
+  "packageName": "com.baidu.homework",
+  "forceDark": true,
+  "mainRule": 96,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.baidu.homework.activity.init.InitActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ImageView",
+          "id": "iv_header",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "ImageView",
+          "id": "comment_mask",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {}
+  ]
+}

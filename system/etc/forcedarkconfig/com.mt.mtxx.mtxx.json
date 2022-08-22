@@ -1,0 +1,401 @@
+{
+  "packageName": "com.mt.mtxx.mtxx",
+  "forceDark": true,
+  "mainRule": 128,
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "FlutterTextureView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ],
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.mt.mtxx.mtxx.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "HomeTopLayout",
+          "forceDark": false,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "HomeRootLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "NestedScrollView",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "PullToRefreshLayout",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "SDKWebView",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ScrollerWebView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 6,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.community.ui.aggregate.AggregateActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.mtcommunity.search.activity.CommunitySearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.mt.ActivitySecondaryTools",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "RelativeLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "NestedScrollView",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 3,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "RelativeLayout",
+          "forceDark": false,
+          "id": "can",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.finance.view.FinanceWebActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "SDKWebView",
+          "forceDark": false,
+          "blackMask": true
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.mtcommunity.usermain.UserMainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageButton",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.poster.ActivityPosterHome",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageButton",
+          "forceDark": true,
+          "usage": 103,
+          "id": "c2d",
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "PullToRefreshLayout",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageButton",
+          "forceDark": true,
+          "usage": 103,
+          "id": "c2e",
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "PullToRefreshLayout",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.meitupic.modularcloudfilter.ui.ToolBoxOnlinePackageActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "MTCommonWebView",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 4,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.mtcpweb.WebViewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "SDKWebView",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ScrollerWebView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

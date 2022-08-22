@@ -1,0 +1,37 @@
+{
+  "packageName": "com.tmri.app.main",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 4,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tmri.app.ui.activity.main.MainTabHostNewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "PullToRefreshScrollView",
+              "parent": 6,
+              "index": -1
+            },
+            {
+              "viewName": "MyGridView",
+              "parent": 1,
+              "index": -1,
+              "id": "my_app_gv"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
