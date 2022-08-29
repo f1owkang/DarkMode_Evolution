@@ -25,7 +25,7 @@
 - TIM（com.tencent.tim）适配周期延长，建议使用QQ官方版
 - 交管12306（com.tmri.app.main）无法深色，预计一周解决
 - 支付宝（com.eg.android.AlipayGphone）底栏深色，预计两周解决
-- 闲鱼（com.taobao.idlefish）部分深色出错，影响较小，未排期
+- 闲鱼（com.taobao.idlefish）部分深色出错，预计一周解决
 
 # 捐赠
 
