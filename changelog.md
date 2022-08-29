@@ -1,3 +1,17 @@
+# 22.08.29
+
+## 重要修改
+
+- 什么值得买（com.smzdm.client.android）
+- 抖音（com.ss.android.ugc.aweme）
+
+## 其他修改
+
+- 本次已装载76个配置文件
+- TIM（com.tencent.tim）活动混乱，建议使用QQ，适配周期延长
+- 尝试修正交管12123（com.tmri.app.main），测试无效
+
+
 # 22.08.15
 
 ## 重要修改

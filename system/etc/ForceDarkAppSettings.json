@@ -1,5 +1,7 @@
 [
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.xunmeng.pinduoduo","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.smzdm.client.android","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.ss.android.ugc.aweme","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.tencent.tim","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.autonavi.minimap","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.sankuai.meituan","showInSettings":true},

@@ -1,7 +1,7 @@
 {
   "packageName": "com.tmri.app.main",
   "forceDark": true,
-  "mainRule": 0,
+  "mainRule": 16,
   "secondaryRule": 4,
   "forceDarkActivityConfigList": [
     {
