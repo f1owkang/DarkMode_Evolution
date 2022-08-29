@@ -3,5 +3,5 @@ name=DarkP
 version=22.08.29
 versionCode=29
 author=lxdebug
-description=MIUI13深色模式补全，已装载75个配置文件.
+description=MIUI13深色模式补全，已装载76个配置文件.
 updateJson=https://raw.githubusercontent.com/LxDebug/DarkP/main/update.json
