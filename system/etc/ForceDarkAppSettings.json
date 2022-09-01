@@ -147,5 +147,7 @@
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.xiaomi.youpin","showInSettings":false},
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.xiaomi.jr","showInSettings":false},
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.securitycenter","showInSettings":false},
-{"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.voiceassist","showInSettings":false}
+{"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.voiceassist","showInSettings":false},
+{"defaultEnable":true,"overrideEnableValue":0,"packageName":"pansong291.xposed.quickenergy","showInSettings":true},
+{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.huawei.works","showInSettings":true}
 ]
