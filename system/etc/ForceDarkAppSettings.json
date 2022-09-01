@@ -152,5 +152,6 @@
 {"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.huawei.works","showInSettings":true},
 {"defaultEnable":true,"overrideEnableValue":0,"packageName":"chili.xposed.chimi","showInSettings":true},
 {"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.clover.daysmatter","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.kingsoft.moffice_pro_hw","showInSettings":true}
+{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.kingsoft.moffice_pro_hw","showInSettings":true},
+{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.nnnen.tool","showInSettings":true}
 ]
