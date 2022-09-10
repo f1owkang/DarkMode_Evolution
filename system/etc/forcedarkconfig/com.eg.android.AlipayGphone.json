@@ -4,6 +4,11 @@
   "mainRule": 17,
   "forceDarkActivityConfigList": [
     {
+      "activityName": "com.eg.android.AlipayGphone.AlipayLogin",
+      "forceDark": true,
+      "forceDarkViewConfigList": []
+    },
+    {
       "activityName": "OspTabHostActivity",
       "forceDark": false
     },

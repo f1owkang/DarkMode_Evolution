@@ -1,3 +1,19 @@
+# 22.9.10
+
+# 重要修改
+
+- 华为工作？（com.huawei.works）
+- 秋风蚂蚁森林快速收取能量（pansong291.xposed.quickenergy）
+- 抖音极速版（com.ss.android.ugc.aweme.lite）
+- 合并 GITHUB@MidNightBlackCat PR
+
+# 其他说明
+
+- 本次已装载78个配置文件
+- 欢迎各位大佬多多提交PR
+- 祝各位中秋快乐，预祝国庆快乐
+
+
 # 22.08.29
 
 ## 重要修改

@@ -1,4 +1,11 @@
 [
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"pansong291.xposed.quickenergy","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.huawei.works","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.ss.android.ugc.aweme.lite","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"chili.xposed.chimi","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.clover.daysmatter","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.kingsoft.moffice_pro_hw","showInSettings":true},
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.nnnen.tool","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.xunmeng.pinduoduo","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.smzdm.client.android","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.ss.android.ugc.aweme","showInSettings":true},
@@ -147,11 +154,5 @@
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.xiaomi.youpin","showInSettings":false},
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.xiaomi.jr","showInSettings":false},
 {"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.securitycenter","showInSettings":false},
-{"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.voiceassist","showInSettings":false},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"pansong291.xposed.quickenergy","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.huawei.works","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"chili.xposed.chimi","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.clover.daysmatter","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.kingsoft.moffice_pro_hw","showInSettings":true},
-{"defaultEnable":true,"overrideEnableValue":0,"packageName":"com.nnnen.tool","showInSettings":true}
+{"defaultEnable":true,"overrideEnableValue":1,"packageName":"com.miui.voiceassist","showInSettings":false}
 ]
