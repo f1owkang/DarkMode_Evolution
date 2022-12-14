@@ -1,0 +1,86 @@
+{
+  "packageName": "com.ss.android.lark.kami",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "BrowserActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "KaLoginActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.ss.android.lark.main.app.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "function_btn_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.lark.search.impl.func.global.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "SearchFilterView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "CommonRecyclerView",
+              "parent": 1,
+              "index": -1,
+              "id": "filter_rv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.lark.chatwindow.ChatWindowActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "FrameLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "root_back_to_bottom"
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.ee.bear.drive.core.DriveActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "PDFView",
+          "forceDark": false,
+          "blackMask": true
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "WebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

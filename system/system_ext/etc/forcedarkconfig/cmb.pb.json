@@ -1,0 +1,49 @@
+{
+  "packageName": "cmb.pb",
+  "forceDark": true,
+  "mainRule": 17,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.pb.tpstore.PBAppletWebViewActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "cmb.pb.app.mainframe.container.PBMainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "cmb.pb.app.allmenu.FunctionGroupActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "RecyclingImage",
+          "usage": 103,
+          "id": "ivFuncIcon",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

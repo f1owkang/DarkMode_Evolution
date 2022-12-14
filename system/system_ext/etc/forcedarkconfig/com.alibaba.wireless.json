@@ -1,0 +1,68 @@
+{
+  "packageName": "com.alibaba.wireless",
+  "forceDark": true,
+  "mainRule": 16,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.alibaba.wireless.detail_dx.activity.OfferDetailActivityDX",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "com.alibaba.wireless.image.fresco.view.AlibabaImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "AliUriImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "DXNativeFrameLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.alibaba.wireless.container.windvane.AliWindvaneActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "ImageView",
+          "usage": 103,
+          "id": "v5_common_return",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

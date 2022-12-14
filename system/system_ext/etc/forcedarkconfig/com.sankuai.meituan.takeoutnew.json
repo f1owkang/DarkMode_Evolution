@@ -1,0 +1,264 @@
+{
+  "packageName": "com.sankuai.meituan.takeoutnew",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.sankuai.waimai.business.page.homepage.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "LottieAnimationView",
+          "forceDark": true,
+          "usage": 103,
+          "id": "icon_selected"
+        },
+        {
+          "viewName": "ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "id": "icon_normal"
+        },
+        {
+          "viewName": "NovaRelativeLayout",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "TitleIndicator",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "RCTRoundImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "react.views.view",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "react.views.view",
+              "parent": 6,
+              "index": -1
+            },
+            {
+              "viewName": "MRNRootView",
+              "parent": 7,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "waimai.business.restaurant.poicontainer.WMRestaurantActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "layout_restaurant_vipcard_mach_rootview"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.business.user.api.user.account.MyAccountActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "RooButton",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "buttonPanel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "waimai.mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "MachViewGroup",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 6,
+              "index": -1,
+              "id": "ll_order_status_list_area"
+            }
+          ]
+        },
+        {
+          "viewName": "waimai.mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "MachViewGroup",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RoundedCornerLinearLayout",
+              "parent": 5,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "android.widget.LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "android.widget.LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "order_detail_custom_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.xm.imui.session.SessionActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "plugin_icon_container"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "open_voice"
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "IMEmotionPlugin",
+              "parent": 0,
+              "index": -1,
+              "id": "emotion_plugin"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "SmartReplyPlugin",
+              "parent": 0,
+              "index": -1,
+              "id": "reply_plugin"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "IMExtraPlugin",
+              "parent": 0,
+              "index": -1,
+              "id": "extra_plugin"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ImUserGoodsPlugin",
+              "parent": 0,
+              "index": -1,
+              "id": "goods_plugin"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "TagCanvasView",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "LinearGradientView",
+      "forceDark": true,
+      "usage": 1
+    },
+    {
+      "viewName": "RoundRectImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LithoView",
+      "forceDark": true,
+      "usage": 1
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "packageName": "com.wuba",
+  "forceDark": true,
+  "mainRule": 34,
+  "secondaryRule": 8,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.wuba.hybrid.CommonWebActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "SweetWebView",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "WubaWebView",
+              "parent": 1,
+              "index": -1,
+              "id": "content_webview"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.anjuke.android.app.secondhouse.house.detailv3.SecondDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ConstraintLayout",
+          "id": "viewSecondCoreVRV3Layout",
+          "forceDark": false,
+          "blackMask": true
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "id": "titleV3BackBtn",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "AppCompatImageButton",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "SimpleDraweeView",
+          "forceDark": false,
+          "id": "callBarV4BrokerAvater"
+        },
+        {
+          "viewName": "SimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "callBarV4MainLayout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.anjuke.android.app.aifang.newhouse.building.detail.BuildingDetailActivityV3",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "vrbg",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.wuba.car.activity.CarCategoryFragmentActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ConstraintLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "ll_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.wuba.zxing.scan.activity.CaptureFragmentActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "FrameLayout",
+          "forceDark": false,
+          "id": "fragment_container_front"
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {}
+  ]
+}

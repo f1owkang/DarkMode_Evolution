@@ -1,0 +1,7 @@
+{
+  "packageName": "com.gotokeep.keep",
+  "forceDark": true,
+  "mainRule": 128,
+  "forceDarkActivityConfigList": [],
+  "forceDarkViewGlobalConfigList": []
+}

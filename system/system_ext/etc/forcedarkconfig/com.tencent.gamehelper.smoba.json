@@ -1,0 +1,170 @@
+{
+  "packageName": "com.tencent.gamehelper.smoba",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.gamehelper.ui.main.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "WrapPagerExIndicator",
+          "forceDark": true,
+          "usage": 1
+        },
+        {
+          "viewName": "LinearLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ArcRecyclerView",
+              "parent": 0,
+              "index": -1,
+              "id": "func_button_recyclerView"
+            }
+          ]
+        },
+        {
+          "viewName": "SkinImageView",
+          "forceDark": true,
+          "usage": 103,
+          "id": "func_button_img"
+        },
+        {
+          "viewName": "SkinImageView",
+          "forceDark": true,
+          "usage": 103,
+          "id": "icon",
+          "conditions": [
+            {
+              "viewName": "RecyclerView",
+              "parent": 1,
+              "index": -1,
+              "id": "button_list"
+            }
+          ]
+        },
+        {
+          "viewName": "CampBlurImageView",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "HippyHorizontalScrollView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "HippyListItemView",
+              "parent": 4,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "CampBlurImageView",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "HippyListItemView",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerViewItem",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.gamehelper.ui.setting.SetActivityFlutter",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.tencent.gamehelper.community.ImageBrowserActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.tencent.dynamic.CampHippyActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "CampBlurImageView",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "HippyRootView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "CampBlurImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "HippyViewGroup",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "CampPageView",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "CampBlurImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "HippyVerticalScrollView",
+              "parent": 2,
+              "index": -1
+            },
+            {
+              "viewName": "CampPageView",
+              "parent": 4,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "SkinImageView",
+      "forceDark": true,
+      "id": "back_img"
+    },
+    {
+      "viewName": "SkinImageView",
+      "forceDark": true,
+      "id": "back"
+    },
+    {
+      "viewName": "SkinImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "smtt.sdk.WebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "packageName": "me.ele",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "me.ele.application.ui.Launcher.LauncherActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RecyclerView",
+              "parent": 4,
+              "index": -1,
+              "id": "list_view"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "RecyclerView",
+              "parent": 5,
+              "index": -1,
+              "id": "list_view"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HomeTab",
+              "parent": 2,
+              "index": -1,
+              "id": "home_bottom_bar"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "LottieAnimationView",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HomeTab",
+              "parent": 2,
+              "index": -1,
+              "id": "home_bottom_bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.newretail.pack.ui.activity.PackActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 1,
+          "id": "tab_bar_background_image"
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.shopdetailv2.ShopDetailV2Activity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "layoutList"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "cart_mist_footer_view_new"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.booking.ui.checkout.dynamic.entertao.CheckoutActivity3",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "body_container"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "index": -1,
+              "id": "body_container"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 5,
+              "index": -1,
+              "id": "body_container"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "cart_mist_footer_view_new"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.newretail.emagex.activity.EMagexMedicineActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "LMagexMistView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LMagexCardView",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.newretail.gate.activity.GateMedicineActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.newretail.shop.RetailShopDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MUSView",
+          "usage": 1
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.alsccarts.CartsActivity2",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 104
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.ebatchorder.entrypoint.BatchOrderActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "MistContainerView",
+          "usage": 104
+        }
+      ]
+    },
+    {
+      "activityName": "com.ali.user.mobile.ui.AliUserVerificationActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "CartView",
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "me.ele.newretail.order.ui.detail.RetailOrderDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "GradientBlueOverlayView",
+          "usage": 104
+        },
+        {
+          "forceDark": true,
+          "viewName": "MistImageView",
+          "usage": 104,
+          "conditions": [
+            {
+              "viewName": "MistContainerView",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ItemContainer",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "MistImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "AppCompatImageButton",
+      "forceDark": true,
+      "usage": 103,
+      "conditions": [
+        {
+          "viewName": "Toolbar",
+          "parent": 0,
+          "index": -1
+        }
+      ]
+    }
+  ]
+}

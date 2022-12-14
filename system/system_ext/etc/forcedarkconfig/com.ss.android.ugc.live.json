@@ -1,0 +1,246 @@
+{
+  "packageName": "com.ss.android.ugc.live",
+  "forceDark": true,
+  "mainRule": 17,
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "FlutterTextureView",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "NestedRoundRectWebView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "NestWebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ],
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.ugc.live.live.ui.LiveDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "FrameLayout",
+          "forceDark": true,
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "GridLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 6,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "LottieAnimationView",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "GestureDetectLayout",
+              "parent": 5,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.ugc.live.main.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "LottieAnimationView",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "ImageView",
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "HSImageView",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.ugc.live.detail.DetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "LottieAnimationView",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "ImageView",
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "HSImageView",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "FrameLayout",
+          "forceDark": true,
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "GridLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "ContentFrameLayout",
+              "parent": 6,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "LottieAnimationView",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "GestureDetectLayout",
+              "parent": 5,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

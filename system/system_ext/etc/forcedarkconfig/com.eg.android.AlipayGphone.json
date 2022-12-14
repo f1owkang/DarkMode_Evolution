@@ -1,0 +1,24 @@
+{
+  "packageName": "com.eg.android.AlipayGphone",
+  "forceDark": true,
+  "mainRule": 17,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.eg.android.AlipayGphone.AlipayLogin",
+      "forceDark": true,
+      "forceDarkViewConfigList": []
+    },
+    {
+      "activityName": "OspTabHostActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "ApTripActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "AULinearLayout",
+      "forceDark": false
+    }
+  ]
+}

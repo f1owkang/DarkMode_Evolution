@@ -1,0 +1,18 @@
+{
+  "packageName": "com.xiaomi.vipaccount",
+  "forceDark": true,
+  "mainRule": 16,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.xiaomi.mi.specificationdetail.SpecificationDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "ImageView",
+          "id": "iv_image"
+        }
+      ]
+    }
+  ]
+}

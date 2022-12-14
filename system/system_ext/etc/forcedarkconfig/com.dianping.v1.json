@@ -1,0 +1,12 @@
+{
+  "packageName": "com.dianping.v1",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "PicassoImageView",
+      "forceDark": false
+    }
+  ]
+}

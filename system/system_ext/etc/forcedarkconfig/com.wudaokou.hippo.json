@@ -1,0 +1,11 @@
+{
+  "packageName": "com.wudaokou.hippo",
+  "forceDark": true,
+  "mainRule": 17,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "ReversalPayActivity",
+      "forceDark": false
+    }
+  ]
+}
