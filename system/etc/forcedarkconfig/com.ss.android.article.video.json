@@ -1,0 +1,215 @@
+{
+  "packageName": "com.ss.android.article.video",
+  "forceDark": true,
+  "mainRule": 16,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.article.video.activity.SplashActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ScrollRelativeLayout",
+              "parent": 3,
+              "index": -1
+            },
+            {
+              "viewName": "XGTabLayout",
+              "parent": 0,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "ConstraintLayout",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "MonitorScrollView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "AndroidView"
+        },
+        {
+          "forceDark": false,
+          "viewName": "AndroidText"
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.feature.detail.activity.NewDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 1,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ScrollRelativeLayout",
+              "parent": 3,
+              "index": -1
+            },
+            {
+              "viewName": "XGTabLayout",
+              "parent": 0,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.feature.live.LivePlayerActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "FrameLayout",
+          "backgroundUsage": 2,
+          "id": "icon",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "action_area"
+            },
+            {
+              "viewName": "GridLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "grid_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.create.specific.publish.activity.CreateHomeWrapperActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "CoverView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "FrameLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "AsyncImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "AppCompatTextView",
+              "parent": 0,
+              "index": 1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.lynx.specific.page.XgLynxActivity",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.ixigua.account.area.SelectAreaCodeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "PinnedHeaderListView",
+          "forceDark": true,
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.imageview.specific.imageview.ThumbPreviewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "XGDraweeImageViewTouch",
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "ResetWhenDetachedLottieAnimationView",
+      "forceDark": true,
+      "usage": 2
+    },
+    {
+      "viewName": "FixDetachCancelLottieAnimationView",
+      "forceDark": true,
+      "usage": 2
+    },
+    {
+      "viewName": "ChannelWebView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "NestedScrollWebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

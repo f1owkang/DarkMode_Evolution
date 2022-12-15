@@ -1,0 +1,53 @@
+{
+  "packageName": "cn.xuexi.android",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.alibaba.android.dingtalkim.activities.ChatMsgActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "LinearLayout",
+          "backgroundUsage": 103,
+          "id": "container"
+        },
+        {
+          "forceDark": true,
+          "viewName": "LinearLayout",
+          "backgroundUsage": 103,
+          "id": "ll_container"
+        }
+      ]
+    },
+    {
+      "activityName": "com.alibaba.android.user.profile.v2.UserProfileActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "RelativeLayout",
+          "backgroundUsage": 103,
+          "id": "header"
+        }
+      ]
+    },
+    {
+      "activityName": "com.alibaba.android.user.contact.activities.MyQrcodeActivity",
+      "forceDark": false
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "RimetWebView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "AvatarImageView",
+      "forceDark": false
+    }
+  ]
+}

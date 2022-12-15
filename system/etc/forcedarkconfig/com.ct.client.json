@@ -1,0 +1,42 @@
+{
+  "packageName": "com.ct.client",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 8,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ct.client.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "MyOrderView",
+          "id": "myOrderView"
+        }
+      ]
+    },
+    {
+      "activityName": "com.ct.client.common.webview.OnlineBusinessWebkitActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "RelativeLayout",
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "WebView",
+          "id": "webview"
+        }
+      ]
+    }
+  ]
+}

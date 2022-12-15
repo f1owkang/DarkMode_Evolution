@@ -1,0 +1,98 @@
+{
+  "packageName": "com.tencent.karaoke",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 34,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "UserBusinessCardActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "ViewPager",
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "CircleIndicatorView",
+              "parent": 0,
+              "index": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.tme.record.preview.RecordPreviewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "ScaleBar"
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.hippy.ui.HippyInstanceActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "HippyViewGroup",
+          "conditions": [
+            {
+              "viewName": "HippyViewGroup",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "HippyRootView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "KKIconView",
+      "forceDark": false,
+      "conditions": [
+        {
+          "viewName": "KKFrameLayout",
+          "parent": 0,
+          "index": -1
+        },
+        {
+          "viewName": "KKRecyclerView",
+          "parent": 1,
+          "index": -1
+        },
+        {
+          "viewName": "KKTextView",
+          "parent": 0,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "viewName": "KKImageView",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103,
+      "conditions": [
+        {
+          "viewName": "UserPageDrawerItemView",
+          "parent": 0,
+          "index": -1
+        }
+      ]
+    }
+  ]
+}
