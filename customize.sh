@@ -32,9 +32,9 @@ on_install() {
     ui_print " "
     ui_print " - Extracting module files"
     unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
-#判断安卓版本修改配置文件路径
-    if [ $(getprop ro.build.version.release) == 13 ] ; then
-		ui_print "- 检测为安卓13更改配置文件位置以适配"
+#检测文件存在
+    if [ -f "/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json" ] ; then
+		ui_print "- 检测为MIUI14更改配置文件位置以适配"
         mkdir -p $MODPATH/system/system_ext/etc/forcedarkconfig/
 		mv -f $MODPATH/system/etc/forcedarkconfig/* $MODPATH/system/system_ext/etc/forcedarkconfig/
         mv -f $MODPATH/system/etc/ForceDarkAppSettings.json $MODPATH/system/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json
