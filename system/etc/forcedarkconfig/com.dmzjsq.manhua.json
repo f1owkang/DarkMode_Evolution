@@ -1,0 +1,11 @@
+{
+    "packageName": "com.dmzjsq.manhua",
+    "forceDark": true,
+    "mainRule": 128
+    "forceDarkActivityConfigList": [
+    {
+      "activityName": "BrowseActivityAncestors4",
+      "forceDark": false
+    }
+  ]
+}

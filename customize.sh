@@ -20,7 +20,7 @@ ui_print "
  ****************************
  "
  sleep 0.05
- ui_print " * 仅适用于运行官方 MIUI 13 的设备"
+ ui_print " * 仅适用于运行官方 MIUI 13/14 的设备"
  sleep 0.05
  ui_print " * 其他设备安装可能造成未知影响！"
  sleep 0.05
@@ -32,11 +32,18 @@ on_install() {
     ui_print " "
     ui_print " - Extracting module files"
     unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+#检测文件存在
+    if [ -f "/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json" ] ; then
+		ui_print "- 检测为MIUI14更改配置文件位置以适配"
+        mkdir -p $MODPATH/system/system_ext/etc/forcedarkconfig/
+		mv -f $MODPATH/system/etc/forcedarkconfig/* $MODPATH/system/system_ext/etc/forcedarkconfig/
+        mv -f $MODPATH/system/etc/ForceDarkAppSettings.json $MODPATH/system/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json
+		rm -rf $MODPATH/system/etc
+    fi
 #install_module
 #abort 
 #用于停止/清除安装时需要的命令，正常情况下用不到，请删除后写入你的shell命令。
 }
-
 #设置权限
 set_permissions() {
 set_perm_recursive  $MODPATH  0  0  0755  0644
