@@ -1,7 +1,7 @@
 id=DarkP_MIUI
 name=DarkP
-version=22.09.10
-versionCode=10
+version=22.12.20
+versionCode=20
 author=lxdebug
-description=MIUI13深色模式补全，中秋国庆快乐版（特别鸣谢：酷安@夜夜夜猫 GITHUB@MidNightBlackCat）.
+description=MIUI13/14深色模式补全（特别鸣谢：酷安@夜夜夜猫 GITHUB@MidNightBlackCat & @dreamflandre）.
 updateJson=https://raw.githubusercontent.com/LxDebug/DarkP/main/update.json
