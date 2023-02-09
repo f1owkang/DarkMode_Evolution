@@ -1,7 +1,7 @@
 {
   "packageName": "com.chaoxing.mobile",
   "forceDark": true,
-  "mainRule": 17,
+  "mainRule": 16,
   "forceDarkActivityConfigList": [
     {
       "activityName": "com.chaoxing.mobile.login.ui.InvitationCodeActivity",
@@ -13,6 +13,25 @@
           "usage": 103,
           "backgroundUsage": 103,
           "id": "etInvitationCode"
+        }
+      ]
+    },
+    {
+      "activityName": "com.chaoxing.mobile.main.ui.MainTabActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatButton",
+          "id": "btnRight",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            }
+          ]
         }
       ]
     }

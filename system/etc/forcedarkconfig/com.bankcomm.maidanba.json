@@ -1,0 +1,567 @@
+{
+  "packageName": "com.bankcomm.maidanba",
+  "forceDark": true,
+  "mainRule": 1024,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.bankcomm.maidanba.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.support.widget.BCMRecyclerView",
+              "index": -1,
+              "id": "recyclerview"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "id": "tv_title",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.v7.widget.AppCompatImageView",
+              "index": 0,
+              "id": "iv_title"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "img_model_title",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_title"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "id": "tv_name",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_list"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "relativelayout_signin",
+          "forceDark": false
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "id": "srs_right",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_content"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_main_content"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "iv_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_tab"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "bc_toolbar_container"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "credit_background_gold",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "id": "tv_msg",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.v7.widget.AppCompatImageView",
+              "index": -1,
+              "id": "iv_pic"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.maidanba.uimanage.v5.discovery.view.ParentRecyclerView",
+              "index": -1,
+              "id": "recyclerview"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "iv_bottom",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1,
+              "id": "rv_list"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.bankcomm.framework.app.templateV5.SRSViewMOD00210",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "iv_instal_title",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_title"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "rl_title_home"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "srs_icon1",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.bankcomm.framework.app.templateV5.SRSViewPIC00100",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.maidanba.uimanage.v5.discovery.view.ParentRecyclerView",
+              "index": -1,
+              "id": "recyclerview"
+            }
+          ]
+        },
+        {
+          "viewName": "com.bankcomm.framework.app.ui.widget.BCMRatioImageView",
+          "id": "img_credit_card_left",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "srs_iv_item_1",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1,
+              "id": "srs_rcv_icons"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "img_credit_card_more",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "srs_icon",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.framework.app.templateV5.view.SRSCircleCornerScaleBannerView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "id": "rl_back",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.support.widget.BCMRecyclerView",
+              "index": -1,
+              "id": "recyclerview"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.activity.EditHomePageNewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "com_title_back_left_iv",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1,
+              "id": "rv_edit_homepage1"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "srs_icon1",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1,
+              "id": "rv_edit_homepage1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.activity.WebViewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "com_title_right_rl_iv",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "id": "com_title_right_share",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "com_title_back_left_iv",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.uimanage.v5.secondpage.ConsumptionCreditActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "srs_icon1",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.bankcomm.support.widget.BCMSwipeLayout",
+              "index": -1,
+              "id": "refresh_view"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "id": "srs_iv_item_4",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "srs_index4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.uimanage.v5.secondpage.CommonSecondPageManageActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.bankcomm.support.widget.BCMSwipeLayout",
+              "index": -1,
+              "id": "refresh_view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.uimanage.v5.secondpage.PopAreaActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.LinearLayout",
+          "id": "ll_main_content",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.bankcomm.support.widget.MyRecyclerView",
+              "index": -1,
+              "id": "list_view"
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_pop_area_coupon"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "fm_main_content"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "rl_pop_area_coupon",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "fm_main_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bankcomm.maidanba.calendar.CalendarNewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_calendar_info"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.bankcomm.maidanba.view.JudgeNestedScrollView",
+              "index": -1,
+              "id": "scl_calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "android.support.v7.widget.AppCompatImageView",
+      "id": "webview_rt_pop_item_iv",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    }
+  ]
+}

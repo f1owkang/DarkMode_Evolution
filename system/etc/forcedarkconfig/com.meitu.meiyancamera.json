@@ -1,0 +1,312 @@
+{
+  "packageName": "com.meitu.meiyancamera",
+  "forceDark": true,
+  "mainRule": 144,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.meitu.myxj.home.activity.NewHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.view.View",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "androidx.core.widget.NestedScrollView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "androidx.viewpager2.widget.ViewPager2$RecyclerViewImpl",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.aicamera.activity.AICameraActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "MTCameraLayout",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.titles.CommonHorizontalScrollView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.CommonNavigator",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.meitu.myxj.magicindicator.MagicIndicator",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.indicators.WrapPagerIndicator",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 2,
+              "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.titles.CommonHorizontalScrollView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.CommonNavigator",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.common.widget.LiveVideoAnimatorButton",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.meitu.myxj.widget.qmui.alpha.QMUIAlphaRelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 8,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.ccdcamera.activity.CCDCameraActivity",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "activityName": "com.meitu.myxj.multicamera.activity.MultiCameraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "ClipRelativeLayout",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "com.meitu.myxj.widget.InterceptRelativeLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.multicamera.widget.MultiCameraButton",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.meitu.myxj.widget.InterceptRelativeLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.beauty_new.activity.BeautifyActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.indicators.WrapPagerIndicator",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.titles.CommonHorizontalScrollView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.beauty_new.widget.bubbleseekbar.TwoDirSeekBar",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.indicators.CirclePagerIndicator",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.meitu.myxj.magicindicator.buildins.commonnavigator.titles.CommonHorizontalScrollView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.videoedit.edit.VideoEditActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.mt.videoedit.framework.library.widget.ColorfulSeekBar",
+          "forceDark": false
+        },
+        {
+          "viewName": "com.meitu.videoedit.edit.widget.ruler.inner.RulerView",
+          "id": "rule_view",
+          "forceDark": false
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.fullbodycamera.activity.FullBodyCameraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.meitu.library.media.camera.MTCameraLayout",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.meitu.library.media.camera.MTCameraLayout",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.myxj.widget.PressScaleImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 8,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.guideline.activity.UserFeedActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.view.View",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.meitu.myxj.applecamera.activity.AppleCameraActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.meitu.myxj.ad.activity.GeneralWebActivity",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

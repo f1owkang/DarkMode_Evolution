@@ -135,6 +135,46 @@
           "viewName": "NewStickyScrollLayout",
           "forceDark": false,
           "id": "stickyScrollLayout"
+        },
+        {
+          "viewName": "com.hellobike.magiccube.widget.BorderTextView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.hellobike.magiccube.widget.BorderImageView",
+              "index": 0
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_tab_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "tabIconContainer"
+            }
+          ]
+        },
+        {
+          "viewName": "com.hellobike.userbundle.widget.SafeRatioImageView",
+          "id": "topIv",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "ratioFl"
+            }
+          ]
         }
       ]
     },
@@ -274,6 +314,17 @@
               "id": "http_root_view"
             }
           ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.hellobike.platform.scan.v2.NewPlatformScanActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "HelloScanViewFinder",
+          "forceDark": false,
+          "id": "scan_view_finder"
         }
       ]
     }

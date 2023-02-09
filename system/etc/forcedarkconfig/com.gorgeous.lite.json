@@ -1,0 +1,110 @@
+{
+  "packageName": "com.gorgeous.lite",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.StyleOpenActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.light.beauty.libbaseuicomponent.base.XRadioGroup",
+          "id": "floating_radio_group",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "com.gorgeous.lite.consumer.lynx.widget.ShadowViewGroup",
+          "id": "floating_bar",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.CommonLynxActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.lynx.tasm.LynxView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lm.components.lynx.view",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "common_lynx_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.light.beauty.basisplatform.appsetting.AppSettingsActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "left",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.PersonalHomeLynxActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.bytedance.lynx.tasm.ui.imageloader",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.google.android.material.appbar.CollapsingToolbarLayout",
+              "index": -1,
+              "id": "collapsing_toolbar_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.light.beauty.mainpage.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.light.beauty.uiwidget.view.StatusCircleView",
+          "id": "btn_frag_decorate_save",
+          "forceDark": false,
+          "usage": 1,
+          "backgroundUsage": 1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

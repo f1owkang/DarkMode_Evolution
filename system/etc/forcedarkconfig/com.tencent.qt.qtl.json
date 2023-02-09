@@ -1,0 +1,108 @@
+{
+  "packageName": "com.tencent.qt.qtl",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.zone.main.MainZoneHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.TextView",
+          "id": "live_btn",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "live_tip_container"
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.TextView",
+          "id": "score",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1,
+              "id": "listview"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "TencentWebViewProxy",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "android.widget.ImageView",
+      "id": "qt_image_button_image_id",
+      "forceDark": false,
+      "conditions": [
+        {
+          "parent": 0,
+          "viewName": "com.tencent.wgx.framework_qtl_base.title.QTImageButton",
+          "index": -1,
+          "id": "nav_left_button"
+        },
+        {
+          "parent": 1,
+          "viewName": "android.widget.RelativeLayout",
+          "index": -1,
+          "id": "navigation_bar"
+        }
+      ]
+    },
+    {
+      "viewName": "android.widget.ImageView",
+      "id": "qt_image_button_image_id",
+      "forceDark": false,
+      "conditions": [
+        {
+          "parent": 1,
+          "viewName": "android.widget.LinearLayout",
+          "index": -1,
+          "id": "nav_right_buttons"
+        }
+      ]
+    },
+    {
+      "viewName": "android.widget.TextView",
+      "id": "nav_title",
+      "forceDark": false,
+      "conditions": [
+        {
+          "parent": 0,
+          "viewName": "android.widget.LinearLayout",
+          "index": -1,
+          "id": "nav_content_container"
+        },
+        {
+          "parent": 1,
+          "viewName": "android.widget.RelativeLayout",
+          "index": -1,
+          "id": "navigation_bar"
+        }
+      ]
+    }
+  ]
+}

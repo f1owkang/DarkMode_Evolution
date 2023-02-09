@@ -1,0 +1,36 @@
+{
+  "packageName": "com.fenbi.android.solar",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.fenbi.android.solar.activity.HomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "LinearLayout",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "NestedScrollView",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

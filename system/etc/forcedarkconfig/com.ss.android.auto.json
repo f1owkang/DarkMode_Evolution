@@ -1,9 +1,33 @@
 {
   "packageName": "com.ss.android.auto",
   "forceDark": true,
-  "mainRule": 144,
-  "secondaryRule": 34,
+  "mainRule": 128,
+  "secondaryRule": 32,
   "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.ss.android.auto.activity.SplashActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "com.ss.android.mine.account.MineAccountView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "container"
+            }
+          ]
+        }
+      ]
+    },
     {
       "activityName": "com.ss.android.article.base.feature.search.SearchActivity",
       "forceDark": true,
@@ -43,6 +67,50 @@
           ]
         }
       ]
+    },
+    {
+      "activityName": "com.ss.android.article.base.feature.main.subtab.tabexpand.TabExpandActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.ss.android.globalcard.ui.view.InnerShadowConstraintLayout",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.ss.android.account.customview.slidingdrawer.AutoSuperSlidingDrawer",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.ss.android.globalcard.ui.view.InnerShadowConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.auto.livesaas.live.activity.LiveActivity",
+      "forceDark": false
     }
   ],
   "forceDarkViewGlobalConfigList": [

@@ -1,0 +1,51 @@
+{
+  "packageName": "com.tencent.token",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.token.ui.LoginMsgActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "login_msg_right",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.token.ui.IndexActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tencent.token.ui.base.RoundImageView",
+          "forceDark": false,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "accountcenter"
+            }
+          ]
+        },
+        {
+          "viewName": "com.tencent.token.ui.base.RoundImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "title_layout"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

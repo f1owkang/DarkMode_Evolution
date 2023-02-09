@@ -1,0 +1,75 @@
+{
+  "packageName": "cn.etouch.ecalendar",
+  "forceDark": true,
+  "mainRule": 128,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "cn.etouch.ecalendar.module.main.ui.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.constraint.ConstraintLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "cn.etouch.ecalendar.tools.almanac.AlmanacView",
+              "index": -1,
+              "id": "almanac_view"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": false,
+          "id": "ll_bg_2",
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "cn.etouch.ecalendar.tools.almanac.AlmanacView",
+              "index": -1,
+              "id": "almanac_view"
+            },
+            {
+              "parent": 4,
+              "viewName": "cn.etouch.ecalendar.tools.astro.ObservableScrollView",
+              "index": -1,
+              "id": "scroll_view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "cn.etouch.ecalendar.module.life.ui.HealthCodeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.constraint.ConstraintLayout",
+          "id": "health_code_layout",
+          "forceDark": false
+        },
+        {
+          "viewName": "android.support.constraint.ConstraintLayout",
+          "id": "gov_service_layout",
+          "forceDark": false
+        },
+        {
+          "viewName": "android.support.constraint.ConstraintLayout",
+          "id": "communication_route_layout",
+          "forceDark": false
+        }
+      ]
+    }
+  ]
+}

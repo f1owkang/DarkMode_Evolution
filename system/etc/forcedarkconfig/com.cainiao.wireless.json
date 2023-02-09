@@ -1,7 +1,7 @@
 {
   "packageName": "com.cainiao.wireless",
   "forceDark": true,
-  "mainRule": 17,
+  "mainRule": 16,
   "forceDarkActivityConfigList": [
     {
       "activityName": "com.cainiao.wireless.homepage.view.activity.HomePageActivity",
@@ -22,6 +22,42 @@
               "parent": 1,
               "index": -1,
               "id": "cubex_container"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "FrameLayout",
+              "parent": 0,
+              "id": "elder_recommend_feed_title",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "SimpleDraweeView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "DXNativeLinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "DXRootView",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "id": "cubex_linearLayout_container",
+              "index": -1
             }
           ]
         }

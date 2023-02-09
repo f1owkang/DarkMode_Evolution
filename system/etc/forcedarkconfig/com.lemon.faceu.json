@@ -1,0 +1,265 @@
+{
+  "packageName": "com.lemon.faceu",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.lemon.faceu.business.mainpage.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lemon.faceu.uimodule.view.SpringButton",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.lemon.faceu.core.camera.setting.CameraSettingLayout",
+              "index": -1,
+              "id": "rl_camera_setting_content"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lemon.faceu.uimodule.view.SpringButton",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.HorizontalScrollView",
+              "index": -1,
+              "id": "horizontal_scroll_view"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "logo",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "container"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "home_page_fragment_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.StyleOpenActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.bytedance.lynx.tasm.ui.imageloader.e",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.lm.components.lynx.view.ExtBDLynxView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.lemon.faceu.business.shootsame.ShootSameCameraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "btn_shoot_same_back"
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lemon.faceu.uimodule.view.SpringButton",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "ll_camera_setting_action_tool"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lemon.faceu.uimodule.view.SpringButton",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.lemon.faceu.core.camera.setting.CameraSettingLayout",
+              "index": -1,
+              "id": "rl_camera_setting_content"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lemon.faceu.uimodule.view.SpringButton",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.HorizontalScrollView",
+              "index": -1,
+              "id": "horizontal_scroll_view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.StyleOpenActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.bytedance.lynx.tasm.ui.imageloader.e",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.lm.components.lynx.view.ExtBDLynxView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.gorgeous.lite.consumer.lynx.activity.StyleDetailLynxActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.bytedance.lynx.tasm.ui.imageloader.e",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.lm.components.lynx.view.ExtBDLynxView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "com.bytedance.corecamera.ui.view.CameraShadeView",
+      "id": "camera_shade_view",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    },
+    {
+      "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+      "id": "btn_open_gallery",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    },
+    {
+      "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+      "id": "btn_switch_camera",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    },
+    {
+      "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+      "id": "btn_ratio",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    },
+    {
+      "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+      "id": "btn_camera_setting",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    },
+    {
+      "viewName": "com.lemon.faceu.uimodule.view.EffectsButton",
+      "id": "btn_goto_home",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "packageName": "cn.TuHu.android",
+  "forceDark": true,
+  "mainRule": 1024,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "cn.TuHu.Activity.tuhutab.TuHuTabActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_title_bg",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "ll_title"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_title_bar",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "cn.TuHu.Activity.home.cms.view.HomeCmsTitleView",
+              "index": -1,
+              "id": "home_title"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "tuhutab_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.tuhu.splitview.AEImageView",
+          "id": "img_ae",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "cn.TuHu.Activity.home.cms.view.CmsModularHotZoneView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "cn.TuHu.Activity.home.view.HomeCmsModularRecyclerView",
+              "index": -1,
+              "id": "home_recycler"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "layout_car_info",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.cardview.widget.CardView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "cn.TuHu.Activity.home.cms.view.HomeCarView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_order_info_cell_list_container"
+            },
+            {
+              "parent": 3,
+              "viewName": "cn.TuHu.Activity.MyPersonCenter.myCenter.view.OrderInfoView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "img_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_container"
+            },
+            {
+              "parent": 2,
+              "viewName": "cn.TuHu.Activity.MyPersonCenter.myCenter.view.CornerImageTextView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.alibaba.android.vlayout.LayoutView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "cn.TuHu.Activity.home.view.HomeCmsModularRecyclerView",
+              "index": -1,
+              "id": "home_recycler"
+            },
+            {
+              "parent": 1,
+              "viewName": "cn.TuHu.view.PullRefreshHomeCmsLayout",
+              "index": -1,
+              "id": "swipeRefreshLayout"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "tuhutab_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.react.views.image.ReactImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.view.ReactViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.facebook.react.views.view.ReactViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollContainerView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "cn.TuHu.Activity.forum.CarCirclesDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "img_comment_bg",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "androidx.cardview.widget.CardView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "cn.TuHu.Activity.forum.ui.view.CarCommentInfoView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "cn.TuHu.Activity.LoveCar.MyLoveCarActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "img_love_var_style_bg",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "love_car_fragment"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "cn.TuHu.Activity.AutomotiveProducts.AutomotiveProductsDetialUI",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title_more"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title_more_scrolled"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1,
+              "id": "rv_auto_product"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "scanner.CaptureActivity",
+      "forceDark": false
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "TencentWebView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

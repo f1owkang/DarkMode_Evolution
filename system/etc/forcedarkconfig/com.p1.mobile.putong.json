@@ -1,0 +1,290 @@
+{
+  "packageName": "com.p1.mobile.putong",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.p1.mobile.putong.core.newui.main.NewMainAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "v.VDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_buttons"
+            },
+            {
+              "parent": 1,
+              "viewName": "v.VFrame",
+              "index": -1,
+              "id": "title_bar"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VImage",
+          "id": "message_sort_image",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "message_all_sort_title_layout"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "message_all_sort_layout"
+            }
+          ]
+        },
+        {
+          "viewName": "com.p1.mobile.putong.core.newui.messages.ConversationRecommendItemView",
+          "id": "online_item",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "v.VRecyclerView",
+              "index": -1,
+              "id": "recommend_list"
+            },
+            {
+              "parent": 1,
+              "viewName": "com.p1.mobile.putong.core.newui.messages.ConversationNewHeadLayout",
+              "index": -1,
+              "id": "new_message_head"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VImage",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "like_comment_new_ab"
+            },
+            {
+              "parent": 2,
+              "viewName": "v.VLinear",
+              "index": -1,
+              "id": "container"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "options",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "like_comment_new_ab"
+            },
+            {
+              "parent": 1,
+              "viewName": "v.VLinear",
+              "index": -1,
+              "id": "container"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VImage",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "v.VFrame",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "v.VLinear",
+              "index": -1,
+              "id": "right_icon_container"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VDraweeView",
+          "id": "drawee_view",
+          "forceDark": false,
+          "usage": 1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.p1.mobile.putong.live.base.view.LiveSquareMediaView",
+              "index": -1,
+              "id": "media_view"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VDraweeView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "images_frame"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.p1.mobile.putong.feed.newui.photoalbum.momentdetail.MomentDetailAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "options",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "like_comment_new_ab"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "detail"
+            }
+          ]
+        },
+        {
+          "viewName": "v.VImage",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "like_comment_new_ab"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.p1.mobile.putong.live.external.page.search.LiveSearchAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "v.VEditText",
+          "id": "edit_text",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "v.VSearchBar",
+              "index": -1,
+              "id": "search_bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.p1.mobile.putong.account.ui.welcome.WelcomeAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+          "id": "start",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "login_layout"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "title",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "main_bg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "v.VIcon",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "v.VSwitchButton",
+      "id": "switch_button",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "v.VDraweeView",
+      "id": "img_icon",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "v.VCheckBox",
+      "forceDark": true,
+      "usage": 103,
+      "backgroundUsage": 103
+    }
+  ]
+}

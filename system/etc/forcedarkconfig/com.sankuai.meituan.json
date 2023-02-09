@@ -47,6 +47,13 @@
       "forceDark": true,
       "forceDarkViewConfigList": [
         {
+          "viewName": "android.widget.FrameLayout",
+          "id": "mbc_list_layout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
           "viewName": "pt.homepage.tab",
           "forceDark": true,
           "usage": 103,
@@ -118,57 +125,42 @@
           ]
         },
         {
-          "viewName": "ComponentHost",
-          "forceDark": true,
-          "usage": 104,
-          "conditions": [
-            {
-              "viewName": "ComponentHost",
-              "parent": 0,
-              "index": -1
-            },
-            {
-              "viewName": "LithoView",
-              "parent": 1,
-              "index": -1
-            },
-            {
-              "viewName": "RoundFrameLayout",
-              "parent": 2,
-              "index": -1
-            }
-          ]
-        },
-        {
-          "viewName": "ComponentHost",
-          "forceDark": true,
-          "usage": 104,
-          "conditions": [
-            {
-              "viewName": "LithoView",
-              "parent": 0,
-              "index": -1
-            },
-            {
-              "viewName": "RoundFrameLayout",
-              "parent": 1,
-              "index": -1
-            }
-          ]
-        },
-        {
-          "viewName": "ComponentHost",
+          "viewName": "com.facebook.litho.ComponentHost",
           "forceDark": true,
           "usage": 103,
           "conditions": [
             {
+              "parent": 0,
+              "viewName": "com.facebook.litho.ComponentHost",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.meituan.android.pt.homepage.view.suggestion",
+              "index": -1,
+              "id": "mbc_recycler"
+            },
+            {
+              "parent": 5,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "mbc_content_inner"
+            }
+          ]
+        },
+        {
+          "viewName": "ComponentHost",
+          "forceDark": true,
+          "usage": 104,
+          "conditions": [
+            {
               "viewName": "LithoView",
               "parent": 0,
               "index": -1
             },
             {
-              "viewName": "HorizontalScrollerIndictatorViewForLitho",
-              "parent": 2,
+              "viewName": "RoundFrameLayout",
+              "parent": 1,
               "index": -1
             }
           ]
@@ -209,6 +201,143 @@
             },
             {
               "parent": 1,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "mbc_content_inner"
+            }
+          ]
+        },
+        {
+          "viewName": "PTRelativeLayout",
+          "id": "user_info_container",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "PTImageView",
+          "id": "account_vip_background",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "PTFrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.sankuai.ptview.view.PTLinearLayout",
+          "id": "retail_container",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.sankuai.ptview.view.PTFrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.sankuai.meituan.mbc.ui.nest",
+              "index": -1,
+              "id": "mbc_recycler"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "mbc_content_inner"
+            }
+          ]
+        },
+        {
+          "viewName": "com.sankuai.ptview.view.PTImageView",
+          "id": "item_bg",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "com.facebook.litho.ComponentHost",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.litho.ComponentHost",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.sankuai.litho.HorizontalScrollerPagerForLitho",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.sankuai.litho.HorizontalScrollerIndicatorPagerForLitho",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meituan.android.widget.ShadowLayout",
+          "id": "ui1_health_container_outer",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "com.facebook.litho.ComponentHost",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.litho.ComponentHost",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.meituan.android.pt.homepage.view.suggestion",
+              "index": -1,
+              "id": "mbc_recycler"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.litho.ComponentHost",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 2,
+              "viewName": "com.sankuai.litho.HorizontalScrollerIndictatorViewForLitho",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.litho.ComponentHost",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.litho.ComponentHost",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.sankuai.meituan.mbc.ui.nest",
+              "index": -1,
+              "id": "mbc_recycler"
+            },
+            {
+              "parent": 4,
               "viewName": "android.widget.LinearLayout",
               "index": -1,
               "id": "mbc_content_inner"
@@ -288,34 +417,6 @@
       ]
     },
     {
-      "activityName": "com.meituan.traveltools.mrncontainer.HTMRNBaseActivity",
-      "forceDark": true,
-      "forceDarkViewConfigList": [
-        {
-          "viewName": "RCTRoundImageView",
-          "forceDark": true,
-          "usage": 103,
-          "conditions": [
-            {
-              "viewName": "react.views.view",
-              "parent": 0,
-              "index": -1
-            },
-            {
-              "viewName": "react.views.scroll",
-              "parent": 4,
-              "index": -1
-            },
-            {
-              "viewName": "react.views.scroll",
-              "parent": 5,
-              "index": -1
-            }
-          ]
-        }
-      ]
-    },
-    {
       "activityName": "com.meituan.android.generalcategories.picassomodule.activity.PicassoCommonBusinessActivity",
       "forceDark": true,
       "forceDarkViewConfigList": [
@@ -380,20 +481,16 @@
           ]
         },
         {
-          "viewName": "LinearLayout",
+          "viewName": "android.widget.LinearLayout",
           "forceDark": true,
+          "usage": 103,
           "backgroundUsage": 103,
           "conditions": [
             {
-              "viewName": "RecyclerView",
               "parent": 0,
-              "index": -1
-            },
-            {
-              "viewName": "FrameLayout",
-              "parent": 2,
+              "viewName": "android.support.v7.widget.RecyclerView",
               "index": -1,
-              "id": "main"
+              "id": "search_home_rank_item_mask"
             }
           ]
         }
@@ -493,15 +590,28 @@
       "forceDark": true,
       "forceDarkViewConfigList": [
         {
-          "viewName": "LinearLayout",
-          "forceDark": true,
-          "usage": 1,
+          "viewName": "android.widget.LinearLayout",
           "id": "order_item",
+          "forceDark": false,
+          "blackMask": true,
           "conditions": [
             {
-              "viewName": "FrameLayout",
-              "parent": 0,
+              "parent": 4,
+              "viewName": "com.meituan.android.order.toreview.ToReviewListFragment",
               "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "id": "title",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "order_item"
             }
           ]
         }

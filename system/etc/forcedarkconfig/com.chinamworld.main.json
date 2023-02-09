@@ -2,6 +2,7 @@
   "packageName": "com.chinamworld.main",
   "forceDark": true,
   "mainRule": 0,
+  "secondaryRule": 32,
   "forceDarkActivityConfigList": [
     {
       "activityName": "com.ccb.start.MainActivity",
@@ -22,27 +23,16 @@
           ]
         },
         {
-          "forceDark": false,
-          "viewName": "CcbNoScrollWebView",
-          "blackMask": true,
+          "viewName": "android.widget.ImageView",
+          "id": "_icon_",
+          "forceDark": true,
+          "usage": 103,
           "conditions": [
             {
-              "viewName": "CcbFrameLayout",
               "parent": 0,
+              "viewName": "com.ccb.framework.ui.widget.CcbBadgeView",
               "index": -1,
-              "id": "fl_content"
-            },
-            {
-              "viewName": "CcbFrameLayout",
-              "parent": 2,
-              "index": -1,
-              "id": "fl_container"
-            },
-            {
-              "viewName": "FrameLayout",
-              "parent": 5,
-              "index": -1,
-              "id": "title_content"
+              "id": "badge"
             }
           ]
         }

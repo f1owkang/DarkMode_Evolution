@@ -1,0 +1,48 @@
+{
+  "packageName": "com.jifen.qukan",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.jifen.qkbase.main.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "NetworkImageView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "QkRelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "SettingsCard",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "QkRecycleView",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "QkRelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

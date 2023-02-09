@@ -1,0 +1,265 @@
+{
+  "packageName": "com.wuba.zhuanzhuan",
+  "forceDark": true,
+  "mainRule": 144,
+  "secondaryRule": 33,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.wuba.zhuanzhuan.activity.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.zhuanzhuan.lemonhome.view.LemonHomeTopBar",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZFrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.zhuanzhuan.uilib.ptrlayout.PtrLottieAnimationFrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.zhuanzhuan.maintab.view.LemonBottomBar",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.zhuanzhuan.searchresult.view.SensitivityDrawerLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.wuba.zhuanzhuan.view.MainTabItemView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.wuba.zhuanzhuan.view.home.HomeRecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZRelativeLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZRelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.google.android.flexbox.FlexboxLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.zhuanzhuan.publish.publishdialog.PanguPublishDialogActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "id": "title",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZLinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.zhuanzhuan.minigoodsdetail.MiniGoodsDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.view.View",
+          "forceDark": true,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 5,
+              "viewName": "com.android.internal.policy.DecorView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.wuba.zhuanzhuan.activity.EagleGoodsDetailActivityRestructure",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZFrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.wuba.zhuanzhuan.components.GoodsDetailRecyclerView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.zhuanzhuan.base.page.JumpingEntrancePublicActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.zhuanzhuan.uilib.image.ZZSimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 6,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 8,
+              "viewName": "com.zhuanzhuan.uilib.common.ZZLinearLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.wuba.zhuanzhuan.activity.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.wuba.zhuanzhuan.view.search.AutoSearchSugTextView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.wuba.zhuanzhuan.components.ZZListView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

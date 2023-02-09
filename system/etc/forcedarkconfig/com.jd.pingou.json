@@ -1,0 +1,359 @@
+{
+  "packageName": "com.jd.pingou",
+  "forceDark": true,
+  "mainRule": 1168,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.jd.pingou.home.HomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "iv_message",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "iv_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.jd.pingou.personal_center.view.widget.badge.BadgeView$BadgeContainer",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.jd.pingou.personal_center.view.widget.IconTitleView",
+              "index": -1,
+              "id": "button_pending_receipt"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_message",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "service_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1,
+              "id": "services_list"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "iv_icon",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.jd.pingou.personal_center.view.widget.IconTitleView",
+              "index": -1,
+              "id": "button_pending_receipt"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "new_top_bg",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.jd.pingou.personal_center.view.widget.TestSpeedConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "home_fragment_container"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "bg_sdv",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "bg_sdv_wrapper"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "home_fragment_container"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "bg_img",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "root_view"
+            },
+            {
+              "parent": 1,
+              "viewName": "com.jd.pingou.pghome.v.fragment.HomeFirstParentRecycler",
+              "index": -1,
+              "id": "recycleView"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "home_navigator_item_icon_checked",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "home_navigator_root_bg",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.jd.pingou.home.navigator.FooterNavigatorView",
+              "index": -1,
+              "id": "home_footer_navigator"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "home_root_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "root_bg",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "root_view"
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "floor_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "topic_rv_wrapper"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.jd.lib.search.core.view.custom.SearchPageSpeedReportRelativeLayout",
+              "index": -1,
+              "id": "root_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.jingdong.common.unification.pagenumswitch.PageNumSwitchView",
+          "id": "product_list_to_top",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.jd.lib.search.view.baseview.ProductListRightBottomView",
+              "index": -1,
+              "id": "product_list_right_bottom_view"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "home_navigator_item_icon_unchecked",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "home_navigator_item_icon_holder"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "home_navigator_item"
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "iv_title",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "title_view"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "floor_view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.jd.pingou.newmodule.v.SXMainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_message",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "head_main_header_top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.jd.lib.search.view.Activity.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "topic_rv_wrapper"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.jd.lib.search.core.view.custom.SearchPageSpeedReportRelativeLayout",
+              "index": -1,
+              "id": "root_view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.jd.lib.search.view.Activity.ProductListActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.jingdong.common.unification.pagenumswitch.PageNumSwitchView",
+          "id": "product_list_to_top",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.jd.lib.search.view.baseview.ProductListRightBottomView",
+              "index": -1,
+              "id": "product_list_right_bottom_view"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.jingdong.common.ui.JDDrawerLayout",
+              "index": -1,
+              "id": "drawer_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.jd.pingou.web.WebUI",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "webui_back",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "iv_message",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
+    }
+  ]
+}

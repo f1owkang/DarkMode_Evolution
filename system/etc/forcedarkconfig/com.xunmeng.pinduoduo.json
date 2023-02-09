@@ -1,5 +1,4 @@
 {
-    "packageName": "com.xunmeng.pinduoduo",
-    "forceDark": true,
-    "mainRule": 128
+  "packageName": "com.xunmeng.pinduoduo",
+  "forceDark": false
 }

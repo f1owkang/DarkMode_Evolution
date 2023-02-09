@@ -2,7 +2,6 @@
   "packageName": "com.lianjia.beike",
   "forceDark": true,
   "mainRule": 142,
-  "secondaryRule": 4,
   "forceDarkViewGlobalConfigList": [
     {
       "forceDark": true,
@@ -121,25 +120,6 @@
           ]
         },
         {
-          "forceDark": true,
-          "viewName": "ImageView",
-          "backgroundUsage": 2,
-          "usage": 2,
-          "conditions": [
-            {
-              "viewName": "LinearLayout",
-              "parent": 0,
-              "index": -1
-            },
-            {
-              "viewName": "FrameLayout",
-              "parent": 3,
-              "index": -1,
-              "id": "tabcontent"
-            }
-          ]
-        },
-        {
           "forceDark": false,
           "viewName": "RelativeLayout",
           "conditions": [
@@ -168,6 +148,73 @@
             {
               "viewName": "TabWidget",
               "parent": 2,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_homepage3_map"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "iv_nav_center_scan",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_tv_nav_center_container"
+            }
+          ]
+        },
+        {
+          "viewName": "com.bk.uilib.view.rounder.RoundedCornerImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": " com.bk.uilib.view.rounder.RoundedCornerFrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.TextView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bk.uilib.view.rounder.RoundedCornerImageView",
+              "index": 0
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.bk.base.commonview.SafeRecyclerView",
               "index": -1
             }
           ]
@@ -564,6 +611,36 @@
           "backgroundUsage": 103,
           "usage": 103,
           "id": "iv_img_one"
+        },
+        {
+          "viewName": "ImageView",
+          "forceDark": false,
+          "blackMask": true,
+          "id": "iv_rental_help"
+        },
+        {
+          "viewName": "FrameLayout",
+          "forceDark": false,
+          "blackMask": true,
+          "id": "fl_top"
+        },
+        {
+          "viewName": "TextView",
+          "forceDark": false,
+          "id": "tv_title",
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "ImageView",
+              "parent": 1,
+              "index": 0,
+              "id": "iv_brand"
+            }
+          ]
         }
       ]
     },
@@ -875,6 +952,18 @@
               "index": -1
             }
           ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.homelink.android.secondhouse.activity.SecondHandHouseDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.bk.uilib.card.SHDetailCommuteFindHouseCard",
+          "forceDark": false,
+          "blackMask": true,
+          "id": "commute_card"
         }
       ]
     }

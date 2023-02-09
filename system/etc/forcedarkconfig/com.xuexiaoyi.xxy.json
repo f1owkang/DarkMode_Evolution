@@ -1,0 +1,95 @@
+{
+  "packageName": "com.xuexiaoyi.xxy",
+  "forceDark": true,
+  "mainRule": 1024,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.xuexiaoyi.lynx.bullet.BulletActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.UIShadowProxy",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.bytedance.ies.bullet.ui.common.BulletContainerView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bytedance.ies.xelement.overlay.LynxOverlayView$mOverlayContainer",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.scroll.AndroidScrollView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 2,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.bytedance.ies.xelement.viewpager.Pager",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "FlutterTextureView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "FlutterView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "PdfView",
+      "forceDark": false,
+      "blackMask": true
+    },
+    {
+      "viewName": "ImageLoadView",
+      "forceDark": false
+    }
+  ]
+}

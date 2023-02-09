@@ -97,6 +97,22 @@
               "id": "ll_layout"
             }
           ]
+        },
+        {
+          "viewName": "WubaDraweeView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
         }
       ]
     },
@@ -108,6 +124,172 @@
           "viewName": "FrameLayout",
           "forceDark": false,
           "id": "fragment_container_front"
+        }
+      ]
+    },
+    {
+      "activityName": "com.anjuke.android.app.aifang.home.NewHouseHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": 0,
+              "id": "kanxianchangLayout"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": false,
+          "blackMask": true,
+          "conditions": [
+            {
+              "viewName": "SimpleDraweeView",
+              "parent": 0,
+              "index": 0,
+              "id": "themeRightBg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.anjuke.android.app.secondhouse.house.detailv3.SecondDetailActivityV3",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.anjuke.android.app.secondhouse.house.detailv3.widget.SecondGalleryIndicatorViewV3",
+          "forceDark": false,
+          "id": "galleryV3Indicator"
+        },
+        {
+          "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+          "id": "viewSecondCoreVRV3Layout",
+          "forceDark": false
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "callBarV4BookImage",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "callBarV4WeiliaoImage",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "id": "callBarV4PhoneImage",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "titleV3BackBtn",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageButton",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "titleV3TitleWrap"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageButton",
+          "id": "titleV3ShareBtn",
+          "forceDark": true,
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.wuba.home.activity.HomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.wuba.rn.support.view.LinearGradientView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.view.ReactViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollContainerView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.react.views.image.ReactImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.view.ReactViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.wuba.rn.views.FixedRNGestureHandlerEnabledRootView",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "fragment_rn_discovery_container"
+            }
+          ]
+        },
+        {
+          "viewName": "com.wuba.rn.support.view.LinearGradientView",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.view.ReactViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.wuba.rn.support.view.LinearGradientView",
+              "index": 0
+            }
+          ]
         }
       ]
     }

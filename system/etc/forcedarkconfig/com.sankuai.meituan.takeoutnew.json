@@ -238,6 +238,55 @@
           ]
         }
       ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.bussiness.order.confirm.OrderConfirmActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.sankuai.waimai.mach.widget",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.sankuai.waimai.mach.widget.MachViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.sankuai.waimai.platform.widget.RoundedCornerLinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1,
+              "id": "scroll_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.sankuai.waimai.business.search.ui.GlobalSearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.view.View",
+          "id": "status_bar_bg_view",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "search_global_bg",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103
+        }
+      ]
     }
   ],
   "forceDarkViewGlobalConfigList": [

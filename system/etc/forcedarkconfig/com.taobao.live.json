@@ -1,0 +1,86 @@
+{
+  "packageName": "com.taobao.live",
+  "forceDark": true,
+  "mainRule": 65,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.taobao.live.home.activity.TaoLiveHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "AppCompatImageView",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "RelativeLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "personal_toolbar_container"
+            }
+          ]
+        },
+        {
+          "viewName":"com.taobao.android.AliUrlImageView",
+          "forceDark":true,
+          "usage":103,
+          "backgroundUsage":103,
+          "conditions":[
+            {
+              "parent":0,
+              "viewName":"com.taobao.android.dinamicx.DXRootView",
+              "index":-1
+            },
+            {
+              "parent":1,
+              "viewName":"android.widget.RelativeLayout",
+              "index":-1,
+              "id":"tl_dx_card_container"
+            },
+            {
+              "parent":3,
+              "viewName":"com.taobao.live.base.dx.widget.SafeRecyclerView",
+              "index":-1,
+              "id":"tlb_list_recycler_view"
+            }
+          ]
+        },
+        {
+          "viewName":"android.support.v7.widget.AppCompatImageView",
+          "id":"hp3_tab_img",
+          "forceDark":true,
+          "usage":103,
+          "conditions":[
+            {
+              "parent":0,
+              "viewName":"android.widget.RelativeLayout",
+              "index":-1,
+              "id":"tab_container"
+            },
+            {
+              "parent":3,
+              "viewName":"android.support.design.widget.TabLayout$SlidingTabIndicator",
+              "index":-1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.taobao.live.home.activity.TaoLiveHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": false,
+          "viewName": "com.taobao.live.base.dx.widget.DXTBLGifButtonWidgetNode$GifViewFrame"
+        }
+      ]
+    },
+    {
+      "activityName": "com.taobao.android.litecreator.modules.record.LCRecordActivityImpl",
+      "forceDark": false
+    }
+  ]
+}

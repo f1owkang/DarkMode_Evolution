@@ -2,6 +2,7 @@
   "packageName": "com.mt.mtxx.mtxx",
   "forceDark": true,
   "mainRule": 128,
+  "secondaryRule": 32,
   "forceDarkViewGlobalConfigList": [
     {
       "viewName": "FlutterTextureView",
@@ -88,6 +89,66 @@
             {
               "viewName": "ConstraintLayout",
               "parent": 6,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.core.widget.NestedScrollView",
+              "index": -1
+            },
+            {
+              "parent": 7,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.meitu.widget.ViewPagerFix",
               "index": -1
             }
           ]
@@ -392,6 +453,56 @@
               "parent": 5,
               "index": -1,
               "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.mt.mtxx.camera.view.CameraActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.meitu.library.anylayer.DragLayout",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.meitu.library.anylayer.ContainerLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.meitu.library.media.camera.MTCameraLayout$q",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.meitu.app.meitucamera.widget.MtxxCameraLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.meitu.app.meitucamera.controller.camera.CameraSameEffectDragLayout",
+              "index": -1
             }
           ]
         }

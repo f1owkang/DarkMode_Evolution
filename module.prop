@@ -1,7 +1,7 @@
 id=DarkP_MIUI
-name=DarkP
-version=22.12.20
-versionCode=20
+name=DarkMode Evolution
+version=23.2
+versionCode=9
 author=lxdebug
-description=MIUI13/14深色模式补全（特别鸣谢：酷安@夜夜夜猫 GITHUB@MidNightBlackCat & @dreamflandre）.
+description=MIUI14/13深色模式补全，已经支持很多应用。Github:https://github.com/LxDebug/DarkP
 updateJson=https://raw.githubusercontent.com/LxDebug/DarkP/main/update.json

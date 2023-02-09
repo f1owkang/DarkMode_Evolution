@@ -1,0 +1,114 @@
+{
+  "packageName": "com.jiongji.andriod.card",
+  "forceDark": true,
+  "mainRule": 128,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.baicizhan.main.activity.TrainingActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.compose.ui.platform.AndroidComposeView",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.compose.ui.platform.ComposeView",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.baicizhan.main.activity.MainTabActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.coordinatorlayout.widget.CoordinatorLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.baicizhan.main.word_book.list.WordFavoriteBooksActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.compose.ui.platform.AndroidComposeView",
+          "forceDark": true,
+          "usage": 1
+        }
+      ]
+    },
+    {
+      "activityName": "com.baicizhan.main.activity.schedule_v2.EditScheduleActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.aigestudio.wheelpicker.WheelPicker",
+          "id": "noproguard_day_count_picker",
+          "forceDark": true,
+          "usage": 103
+        },
+        {
+          "viewName": "com.aigestudio.wheelpicker.WheelPicker",
+          "id": "noproguard_word_count_picker",
+          "forceDark": true,
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "cn.hugo.android.scanner.CaptureActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "cn.hugo.android.scanner.view.ViewfinderView",
+          "forceDark": false,
+          "usage": 1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

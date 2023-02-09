@@ -1,9 +1,85 @@
 {
   "packageName": "com.tencent.karaoke",
   "forceDark": true,
-  "mainRule": 16,
+  "mainRule": 528,
   "secondaryRule": 34,
   "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.karaoke.module.main.ui.MainTabActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.tencent.karaoke.widget.MainTabView",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        },
+        {
+          "viewName": "com.tencent.mtt.hippy.views.image.HippyImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.tencent.mtt.hippy.HippyRootView",
+              "index": -1
+            },
+            {
+              "parent": 7,
+              "viewName": "com.tencent.karaoke.module.feed.ui.widget.FeedViewPager",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.tencent.karaoke.module.hippy.views.gradient.LinearGradientView",
+          "forceDark": true,
+          "usage": 105,
+          "backgroundUsage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.tencent.mtt.hippy.HippyRootView",
+              "index": -1
+            },
+            {
+              "parent": 7,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
     {
       "activityName": "UserBusinessCardActivity",
       "forceDark": true,
@@ -33,6 +109,28 @@
         {
           "forceDark": false,
           "viewName": "ScaleBar"
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatToggleButton",
+          "forceDark": true,
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.google.android.material.appbar.AppBarLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.tencent.tme.record.preview.visual.widget.NoClickCoordinatorLayout",
+              "index": -1
+            }
+          ]
         }
       ]
     },
@@ -41,17 +139,122 @@
       "forceDark": true,
       "forceDarkViewConfigList": [
         {
-          "forceDark": false,
-          "viewName": "HippyViewGroup",
+          "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
           "conditions": [
             {
-              "viewName": "HippyViewGroup",
               "parent": 0,
+              "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
               "index": -1
             },
             {
-              "viewName": "HippyRootView",
+              "parent": 3,
+              "viewName": "com.tencent.mtt.hippy.HippyRootView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.tencent.karaoke.module.hippy.ui.HippyRootLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.recording.ui.main.RecordingActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tencent.tme.record.ui.footview.RecordingEffectView",
+          "forceDark": false
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.mail.ui.MailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 8,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 9,
+              "viewName": "androidx.appcompat.widget.ActionBarOverlayLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.songedit.ui.widget.songedit.SongEditActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatButton",
+          "forceDark": true,
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 4,
+              "viewName": "androidx.appcompat.widget.ActionBarOverlayLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tencent.karaoke.module.searchglobal.hippy.MainHippySearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tencent.karaoke.module.hippy.views.gradient.LinearGradientView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.tencent.mtt.hippy.views.view.HippyViewGroup",
+              "index": -1
+            },
+            {
               "parent": 2,
+              "viewName": "com.tencent.mtt.hippy.views.scroll.HippyVerticalScrollView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.tencent.mtt.hippy.views.scroll.HippyHorizontalScrollView",
               "index": -1
             }
           ]

@@ -1,0 +1,146 @@
+{
+  "packageName": "com.zhongduomei.rrmj.society",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.rrtv.rrtvtrunk.main.presentation.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_icon",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "fl_container"
+            },
+            {
+              "parent": 1,
+              "viewName": "com.rrtv.rrtvtrunk.main.widget.HomeNormalItem",
+              "index": -1,
+              "id": "item_first"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.rrtv.ui.navigation.NavigationBar",
+              "index": -1,
+              "id": "navigationBar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.rrtv.login.presentation.LoginHalfActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "login_half_bg_iv_img",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.luck.picture.lib.PictureSelectorActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "ivPicture",
+          "forceDark": false,
+          "usage": 1,
+          "backgroundUsage": -1,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.luck.picture.lib.widget.SquareRelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.luck.picture.lib.widget.RecyclerPreloadView",
+              "index": -1,
+              "id": "picture_recycler"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.luck.picture.lib.PicturePreviewActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.rrtv.drama.presentation.page.RankListNewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_bg",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.coordinatorlayout.widget.CoordinatorLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.scwang.smartrefresh.layout.SmartRefreshLayout",
+              "index": -1,
+              "id": "srl_content"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "com.rrtv.player.VideoPlayer",
+      "id": "video_player_view",
+      "forceDark": false
+    }
+  ]
+}

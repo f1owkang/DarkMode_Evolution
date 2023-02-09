@@ -1,0 +1,293 @@
+{
+  "packageName": "com.didapinche.booking",
+  "forceDark": true,
+  "mainRule": 1152,
+  "secondaryRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.didapinche.booking.helpage.view.activity.HelpAgeHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "id": "tv_start_address",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_start_point"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "ct_all"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "id": "tv_family_account",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "ct_all"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "top_bg",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "ct_all"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "ct_all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.didapinche.booking.home.activity.IndexNewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.FrameLayout",
+          "id": "rl_index_new_left_container",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.didapinche.booking.home.widget.DiDaDrawerLayout",
+              "index": -1,
+              "id": "dl_index_new"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        },
+        {
+          "viewName": "com.didapinche.booking.home.widget.IndexImageView",
+          "id": "ivBottomAtmosphere",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "llCard"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.didapinche.booking.home.widget.IndexScrollView",
+              "index": -1,
+              "id": "isv_index_new"
+            }
+          ]
+        },
+        {
+          "viewName": "com.didapinche.booking.home.widget.IndexScrollView",
+          "id": "isv_index_new",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "flPassenger"
+            }
+          ]
+        },
+        {
+          "viewName": "com.didapinche.booking.home.widget.IndexImageView",
+          "id": "ivTopAtmosphere",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "rl_main_passenger_contianer_top"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "flPassengerContainer"
+            }
+          ]
+        },
+        {
+          "viewName": "android.view.View",
+          "id": "v_home_new_background",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "rl_main_passenger_contianer_top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.didapinche.booking.me.activity.MyHomePageActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "top_bg",
+          "forceDark": true,
+          "usage": 105,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "cl_container"
+            },
+            {
+              "parent": 2,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "cl_evaluate"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.didapinche.booking.widget.AutoScrollView",
+              "index": -1,
+              "id": "sv_content"
+            },
+            {
+              "parent": 3,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "cl_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.didapinche.booking.passenger.activity.DailyWelfareActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+          "id": "cl_welfare_assets_model",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_model_container"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "id": "ll_sign_and_bouns",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "ll_model_container"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "androidx.appcompat.widget.AppCompatImageView",
+      "id": "wb_iv_refresh",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "androidx.appcompat.widget.AppCompatImageView",
+      "id": "wb_iv_goback",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "androidx.appcompat.widget.AppCompatImageView",
+      "id": "wb_iv_share",
+      "forceDark": true,
+      "usage": 103
+    }
+  ]
+}

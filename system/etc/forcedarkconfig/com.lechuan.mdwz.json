@@ -1,0 +1,183 @@
+{
+  "packageName": "com.lechuan.mdwz",
+  "forceDark": true,
+  "mainRule": 128,
+  "secondaryRule": 4,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.lechuan.mdwz.ui.activity.NovelMainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.scwang.smartrefresh.layout.SmartRefreshLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.constraint.ConstraintLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.v7.widget.RecyclerView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.support.design.widget.CollapsingToolbarLayout",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.support.design.widget.AppBarLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatTextView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.support.design.widget.CollapsingToolbarLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.lechuan.midunovel.bookstore.view.NovelScaleTransitionPagerTitleView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lechuan.midunovel.bookstore.view.NovelPagerView",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.HorizontalScrollView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.scwang.smartrefresh.layout.SmartRefreshLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.support.v7.widget.ContentFrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.lechuan.midunovel.bookdetail.v3.BookDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.support.constraint.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "android.support.design.widget.CoordinatorLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.lechuan.midunovel.browser.rebuild.ui.MdwzX5WebViewActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.support.v7.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.lechuan.midunovel.browser.common.widget.WebToolBar",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.support.v7.widget.ContentFrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.lechuan.midunovel.refactor.reader.refactor.ui.reader.ReaderActivity",
+      "forceDark": false
+    }
+  ]
+}

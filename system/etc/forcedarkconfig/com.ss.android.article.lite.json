@@ -1,7 +1,7 @@
 {
   "packageName": "com.ss.android.article.lite",
   "forceDark": true,
-  "mainRule": 16,
+  "mainRule": 1040,
   "secondaryRule": 34,
   "forceDarkActivityConfigList": [
     {
@@ -59,19 +59,46 @@
           ]
         },
         {
-          "viewName": "behavior.ui.view.AndroidView",
-          "forceDark": true,
-          "usage": 103,
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": false,
           "conditions": [
             {
-              "parent": 1,
-              "viewName": "AndroidScrollView",
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
               "index": -1
             },
             {
-              "parent": 5,
-              "viewName": "ImpressionLinearLayout",
+              "parent": 1,
+              "viewName": "com.lynx.tasm.LynxView",
               "index": -1
+            },
+            {
+              "parent": 7,
+              "viewName": "com.ss.android.article.common.view.SSTabHost",
+              "index": -1,
+              "id": "tabhost"
+            }
+          ]
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 6,
+              "viewName": "com.ss.android.article.common.view.SSTabHost",
+              "index": -1,
+              "id": "tabhost"
             }
           ]
         },
@@ -83,6 +110,28 @@
             {
               "parent": 3,
               "viewName": "ImpressionLinearLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.facebook.drawee.view.SimpleDraweeView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bytedance.article.lite.nest.layout.NestLinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.ss.android.mine.gridstyle.view.EquallyGridLayout",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.widget.ScrollView",
               "index": -1
             }
           ]
@@ -262,6 +311,50 @@
           "viewName": "LynxView",
           "forceDark": true,
           "usage": 104
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 7,
+              "viewName": "com.ss.android.article.common.view.SSTabHost",
+              "index": -1,
+              "id": "tabhost"
+            }
+          ]
+        },
+        {
+          "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.LynxView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 6,
+              "viewName": "com.ss.android.article.common.view.SSTabHost",
+              "index": -1,
+              "id": "tabhost"
+            }
+          ]
         }
       ]
     },
@@ -277,6 +370,147 @@
     },
     {
       "activityName": "com.ss.android.article.common.ThumbPreviewActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.ss.android.ugc.detail.refactor.ui.TikTokActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.ss.android.ttlayerplayer.mediaview",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.article.base.feature.detail2.view.NewDetailActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "im.quar.autolayout.view.AutoFrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.ss.android.article.base.feature.feed.view.NewDetailToolBar",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "com.ss.android.common.ui.view.SwipeOverlayFrameLayout",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "forceDark": false,
+          "viewName": "com.ss.android.image",
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bytedance.bytewebview.nativerender",
+              "index": -1
+            },
+            {
+              "parent": 3,
+              "viewName": "com.ss.android.detail.feature.detail.view.v2.DetailScrollView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "com.bytedance.bytewebview.nativerender",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bytedance.bytewebview.nativerender",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.ss.android.detail.feature.detail.view.v2.DetailScrollView",
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatTextView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.bytedance.article.common.ui.DetailTitleBar",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.ss.android.common.ui.view.SwipeOverlayFrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 6,
+              "viewName": "com.ss.android.article.base.ui.SwipeBackLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.bytedance.novel.view.NovelReaderActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.android.bytedance.search.SearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.lynx.tasm.ui.image.FrescoImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.lynx.tasm.behavior.ui.view.AndroidView",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.ss.android.lite.lynx.view.TTLynxView",
+              "index": -1
+            },
+            {
+              "parent": 5,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.live.host.livehostimpl.OpenLivePlayerActivity",
       "forceDark": false
     }
   ],

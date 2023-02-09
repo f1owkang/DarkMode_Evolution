@@ -1,0 +1,168 @@
+{
+  "packageName": "com.yek.android.kfc.activitys",
+  "forceDark": true,
+  "mainRule": 16,
+  "secondaryRule": 4,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.yum.brandkfc.SplashAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "splash_iv_3",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "splash_rt_1"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.yum.android.superkfc.ui.v5.HomeV5Activity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "homev2_view_me_rt_2"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.yum.android.superkfc.ui.v5.WrapRecyclerView",
+              "index": -1,
+              "id": "home_view_me_recyclerview"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "home_me_iv_2",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "home_me_rt_7"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "homev2_view_me_rt_15",
+          "forceDark": false
+        },
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "home_me_iv_3",
+          "forceDark": true,
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.yum.android.superkfc.reactnative.v2.React1Activity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.facebook.react.views.view.ReactViewGroup",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.image.ReactImageView",
+              "index": 0
+            },
+            {
+              "parent": 0,
+              "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollContainerView",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollView",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.yum.android.superkfc.reactnative.v2.React2Activity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.facebook.react.views.scroll.ReactHorizontalScrollView",
+          "forceDark": false,
+          "usage": 103
+        }
+      ]
+    },
+    {
+      "activityName": "com.yum.brandkfc.MipcaActivityCapture",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.mining.app.zxing.view.ViewfinderView",
+          "id": "viewfinder_view",
+          "forceDark": false
+        }
+      ]
+    },
+    {
+      "activityName": "com.yum.brandkfc.SplashAct",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.ImageView",
+          "id": "splash_iv_3",
+          "forceDark": true,
+          "usage": 103
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "com.yum.android.superkfc.widget.YumLottieAnimationView",
+      "forceDark": true,
+      "usage": 103
+    },
+    {
+      "viewName": "android.support.v7.widget.AppCompatImageView",
+      "id": "home_me_iv_2",
+      "forceDark": true,
+      "usage": 103,
+      "conditions": [
+        {
+          "parent": 0,
+          "viewName": "android.widget.RelativeLayout",
+          "index": -1,
+          "id": "home_me_rt_7"
+        }
+      ]
+    }
+  ]
+}

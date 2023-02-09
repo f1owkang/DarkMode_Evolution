@@ -1,0 +1,73 @@
+{
+  "packageName": "com.tencent.qqpim",
+  "forceDark": true,
+  "mainRule": 0,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.qqpim.ui.home.QQPimHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "vip_card",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "com.tencent.qqpim.ui.home.datatab.header.HeaderView",
+              "index": -1,
+              "id": "headerview"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.RelativeLayout",
+          "id": "arrange_card_container",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "parent_view"
+            },
+            {
+              "parent": 1,
+              "viewName": "com.tencent.qqpim.file.ui.local.LocalHeaderV2",
+              "index": -1,
+              "id": "local_header"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.tencent.qqpim.ui.components.nestedceiling.widget.NestedParentScrollView",
+              "index": -1,
+              "id": "scrollView"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "forceDarkViewGlobalConfigList": [
+    {
+      "viewName": "FlutterView",
+      "forceDark": false,
+      "blackMask": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "packageName": "com.citiccard.mobilebank",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.citiccard.mobilebankapp.HomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "LinearLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "GentlySlideRecyclerView",
+              "parent": 0,
+              "index": -1,
+              "id": "recycler_view"
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 1,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "RelativeLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1,
+              "id": "layout_item_mine_head_login_no_card"
+            },
+            {
+              "viewName": "GentlySlideRecyclerView",
+              "parent": 2,
+              "index": -1,
+              "id": "recycler_view"
+            },
+            {
+              "viewName": "RelativeLayout",
+              "parent": 3,
+              "index": -1
+            }
+          ]
+        },
+        {
+          "viewName": "RelativeLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 1,
+              "index": -1
+            },
+            {
+              "viewName": "GentlySlideRecyclerView",
+              "parent": 2,
+              "index": -1,
+              "id": "recycler"
+            }
+          ]
+        },
+        {
+          "viewName": "RelativeLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "viewName": "LinearLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "RecyclerView",
+              "parent": 1,
+              "index": -1,
+              "id": "rv_mine_first_order"
+            },
+            {
+              "viewName": "LinearLayout",
+              "parent": 2,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "packageName": "com.tianyancha.skyeye",
+  "forceDark": true,
+  "mainRule": 1024,
+  "secondaryRule": 32,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tianyancha.skyeye.MainActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "iv_header_bg",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 2,
+              "viewName": "androidx.core.widget.NestedScrollView",
+              "index": -1,
+              "id": "nsv_mine_content_scroll"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_mine"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_mine"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "realtabcontent"
+            }
+          ]
+        },
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "id": "tab_iv",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.tianyancha.base.widget.BottomNavigationView",
+              "index": -1,
+              "id": "bottom_layout"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "ll_main"
+            }
+          ]
+        },
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 2,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1,
+              "id": "recyclerView"
+            },
+            {
+              "parent": 3,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "root_view"
+            }
+          ]
+        },
+        {
+          "viewName": "android.view.View",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1,
+              "id": "cl_main"
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "realtabcontent"
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "ll_main"
+            }
+          ]
+        },
+        {
+          "viewName": "com.tianyancha.base.widget.TycSVGImageView",
+          "id": "iv_mine_function_module_logo",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "androidx.recyclerview.widget.RecyclerView",
+              "index": -1,
+              "id": "rv_list"
+            },
+            {
+              "parent": 3,
+              "viewName": "androidx.core.widget.NestedScrollView",
+              "index": -1,
+              "id": "nsv_mine_content_scroll"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tianyancha.skyeye.activity.SweepQrCodeOrCardActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.tianyancha.skyeye.activity.AppSettingActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tianyancha.base.widget.MLineView",
+          "forceDark": true,
+          "usage": 1,
+          "conditions": [
+            {
+              "parent": 3,
+              "viewName": "androidx.appcompat.widget.ContentFrameLayout",
+              "index": -1,
+              "id": "content"
+            },
+            {
+              "parent": 4,
+              "viewName": "androidx.appcompat.widget.FitWindowsLinearLayout",
+              "index": -1,
+              "id": "action_bar_root"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.tianyancha.skyeye.activity.search.AdvancedSearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.tianyancha.base.widget.wheelview.WheelView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 2,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "content"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

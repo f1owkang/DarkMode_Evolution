@@ -2,6 +2,7 @@
   "packageName": "com.ss.android.article.video",
   "forceDark": true,
   "mainRule": 16,
+  "secondaryRule": 34,
   "forceDarkActivityConfigList": [
     {
       "activityName": "com.ss.android.article.video.activity.SplashActivity",
@@ -33,7 +34,7 @@
           "forceDark": true,
           "viewName": "ConstraintLayout",
           "usage": 103,
-          "backgroundUsage": 103,
+          "backgroundUsage": 105,
           "conditions": [
             {
               "viewName": "ConstraintLayout",
@@ -42,18 +43,46 @@
             },
             {
               "viewName": "MonitorScrollView",
-              "parent": 2,
+              "parent": 3,
               "index": -1
             }
           ]
         },
         {
-          "forceDark": false,
-          "viewName": "AndroidView"
+          "viewName": "com.ixigua.commonui.view.lottie.ResetWhenDetachedLottieAnimationView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.ixigua.commonui.view.like.LikeButton",
+              "index": -1
+            },
+            {
+              "parent": 6,
+              "viewName": "com.ixigua.commonui.view.recyclerview.MotionRecyclerView",
+              "index": -1
+            }
+          ]
         },
         {
-          "forceDark": false,
-          "viewName": "AndroidText"
+          "viewName": "com.ixigua.image.AsyncImageView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.ixigua.feature.search.skin",
+              "index": -1
+            },
+            {
+              "parent": 4,
+              "viewName": "com.bytedance.scene.view",
+              "index": -1
+            }
+          ]
         }
       ]
     },
@@ -112,7 +141,7 @@
       ]
     },
     {
-      "activityName": "com.ixigua.create.specific.publish.activity.CreateHomeWrapperActivity",
+      "activityName": "CreateHomeWrapperActivity",
       "forceDark": true,
       "forceDarkViewConfigList": [
         {
@@ -141,11 +170,6 @@
               "viewName": "ConstraintLayout",
               "parent": 0,
               "index": -1
-            },
-            {
-              "viewName": "AppCompatTextView",
-              "parent": 0,
-              "index": 1
             },
             {
               "viewName": "RecyclerView",
@@ -188,6 +212,33 @@
           ]
         }
       ]
+    },
+    {
+      "activityName": "com.ixigua.feature.hotspot.specific.HotspotDetailSceneActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "androidx.appcompat.widget.AppCompatImageView",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "androidx.constraintlayout.widget.ConstraintLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "com.ixigua.feature.hotspot.specific.view.HotspotContainerViewPager",
+              "index": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ixigua.openliveplugin.LivePlayerActivity",
+      "forceDark": false
     }
   ],
   "forceDarkViewGlobalConfigList": [
@@ -210,6 +261,10 @@
       "viewName": "NestedScrollWebView",
       "forceDark": false,
       "blackMask": true
+    },
+    {
+      "viewName": "ImagePreviewLayout",
+      "forceDark": false
     }
   ]
 }

@@ -29,6 +29,19 @@
               "id": "function_btn_container"
             }
           ]
+        },
+        {
+          "viewName": "com.larksuite.framework.ui.CompatDrawableTextView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.larksuite.framework.ui.AlignParentWidthRelativeLayout",
+              "index": -1
+            }
+          ]
         }
       ]
     },
@@ -61,6 +74,19 @@
           "usage": 103,
           "backgroundUsage": 103,
           "id": "root_back_to_bottom"
+        },
+        {
+          "viewName": "com.larksuite.component.ui.layout.LKUIRoundLinearLayout",
+          "forceDark": true,
+          "usage": 2,
+          "backgroundUsage": 2,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "com.larksuite.framework.ui.SpareLayout",
+              "index": -1
+            }
+          ]
         }
       ]
     },
@@ -74,6 +100,93 @@
           "blackMask": true
         }
       ]
+    },
+    {
+      "activityName": "com.ss.android.lark.calendar.impl.features.events.edit.EditActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.ss.android.lark.calendar.impl.features.events.edit.widget.pickerview.WheelView",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1,
+              "id": "timePickerContainer"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.ss.android.lark.calendar.impl.features.events.edit.widget.ListenableLinearLayout",
+              "index": -1,
+              "id": "chooseTimeRootView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.lark.search.impl.func.chatinside.ChatInsideSearchActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "com.ss.android.lark.widget.searchfilter.SearchFilterView",
+          "id": "search_filter_view",
+          "forceDark": true,
+          "usage": 103,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.LinearLayout",
+              "index": -1,
+              "id": "search_filter_ll"
+            },
+            {
+              "parent": 2,
+              "viewName": "com.ss.android.lark.widget.recyclerview.CommonRecyclerView",
+              "index": -1,
+              "id": "filter_msg_rv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "activityName": "com.ss.android.lark.widget.photo_picker.PhotoPagerActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.ss.lark.android.avatar.ui.AvatarPreviewActivity",
+      "forceDark": false
+    },
+    {
+      "activityName": "com.tt.miniapphost.placeholder.MiniappTabActivity0",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "android.widget.LinearLayout",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            },
+            {
+              "parent": 1,
+              "viewName": "android.widget.FrameLayout",
+              "index": -1
+            }
+          ]
+        }
+      ]
     }
   ],
   "forceDarkViewGlobalConfigList": [
@@ -81,6 +194,23 @@
       "viewName": "WebView",
       "forceDark": false,
       "blackMask": true
+    },
+    {
+      "viewName": "AdvanceAvatarView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LarkAvatarView",
+      "forceDark": false
+    },
+    {
+      "viewName": "LKUIRoundedImageView",
+      "forceDark": false
+    },
+    {
+      "viewName": "androidx.appcompat.widget.AppCompatImageView",
+      "id": "iv_photo",
+      "forceDark": false
     }
   ]
 }

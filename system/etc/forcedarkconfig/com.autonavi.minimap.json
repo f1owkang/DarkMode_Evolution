@@ -1,5 +1,4 @@
 {
   "packageName": "com.autonavi.minimap",
-  "forceDark": true,
-  "mainRule": 128
+  "forceDark": false
 }

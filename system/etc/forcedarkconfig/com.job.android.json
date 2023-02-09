@@ -1,0 +1,34 @@
+{
+  "packageName": "com.job.android",
+  "forceDark": true,
+  "mainRule": 0,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.job.android.pages.common.home.AppHomeActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "viewName": "LinearLayout",
+          "forceDark": true,
+          "usage": 103,
+          "backgroundUsage": 103,
+          "id": "llContent",
+          "conditions": [
+            {
+              "viewName": "DataBindingRecyclerView",
+              "parent": 0,
+              "index": -1,
+              "id": "recyclerView"
+            },
+            {
+              "viewName": "StatesLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "statesLayout"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

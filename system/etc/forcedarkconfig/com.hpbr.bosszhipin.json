@@ -12,6 +12,42 @@
           "forceDark": true,
           "usage": 103,
           "id": "iv_general_settings"
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 0,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title"
+            },
+            {
+              "parent": 3,
+              "viewName": "com.hpbr.bosszhipin.views.WindowInsetsLinearLayout",
+              "index": -1,
+              "id": "ll_main_view"
+            }
+          ]
+        },
+        {
+          "viewName": "AppCompatImageView",
+          "forceDark": false,
+          "conditions": [
+            {
+              "parent": 1,
+              "viewName": "android.widget.RelativeLayout",
+              "index": -1,
+              "id": "rl_title"
+            },
+            {
+              "parent": 4,
+              "viewName": "com.hpbr.bosszhipin.views.WindowInsetsLinearLayout",
+              "index": -1,
+              "id": "ll_main_view"
+            }
+          ]
         }
       ]
     },
