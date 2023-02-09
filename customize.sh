@@ -1,3 +1,4 @@
+# 脚本编写感谢 酷安@阿巴酱
 SKIPUNZIP=0
 
 # 获取基础环境信息
@@ -25,7 +26,7 @@ get_choose()
 	done
 }
 
-#安装模块时打印的信息
+# 安装模块时打印的信息
 UiPrint() 
 {
 	echo "$@"
@@ -57,6 +58,7 @@ if [[ $(get_choose) == 0 ]]; then
 		if [[ $(get_choose) == 0 ]]; then
 			UiPrint "- 开始 MIUI14 配置安装模式"
             unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+			# 此处解决方案来自 Github@dreamflandre
             mkdir -p $MODPATH/system/system_ext/etc/forcedarkconfig/
 	        mv -f $MODPATH/system/etc/forcedarkconfig/* $MODPATH/system/system_ext/etc/forcedarkconfig/
             mv -f $MODPATH/system/etc/ForceDarkAppSettings.json $MODPATH/system/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json
