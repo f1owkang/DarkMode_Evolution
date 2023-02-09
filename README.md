@@ -3,29 +3,35 @@
 ## 重要：全新~~次世代版本~~兼容 MIUI14/13，可能出现 自动重启到recovery和卡第一屏 问题
 ## 支持应用
 
-- 😋兼容良好 😔不尽人意 😥无法深色
+- 😋兼容良好 😔不尽人意 ？无法确定
 - 😋淘宝（com.taobao.taobao）
+- 😋学习通（com.chaoxing.mobile）
 - 😔闲鱼（com.taobao.idlefish）
 - 😋阿里巴巴（com.alibaba.wireless）
-- 😔TIM（com.tencent.tim）
-- 😋拼多多（com.xunmeng.pinduoduo）
-- 😋高德地图（com.autonavi.minimap）
 - 😔铁路12306（com.MobileTicket）
 - 😔支付宝（com.eg.android.AlipayGphone）
 - 😋什么值得买（com.smzdm.client.android）
 - 😔抖音（com.ss.android.ugc.aweme）
-- 😥交管12306（com.tmri.app.main）
+- ？拼多多（com.xunmeng.pinduoduo）
+- ？高德地图（com.autonavi.minimap）
 - 更多应用请参见模块目录内置配置文件
 
 ## 其他事项
 
-- 全新版本，超拉跨的兼容性
+- 全新版本，~~超稳定的~~兼容性
 - 本次已装载最新MIUI14配置
 - 详细更新请参见changelog.md
 
 ## 已知问题
 
 - 抖音（com.ss.android.ugc.aweme）用户报告聊天页面看不清，移除聊天深色。请在 设置-背景设置 切换为经典。
+
+## 如何使用
+
+1.在右侧Releases下载最新zip包
+2.进入Magisk软件内安装
+3.重启手机
+4.进入 设置-显示-更多深色模式设置 打开对应软件开关
 
 ## 简明教程
 
