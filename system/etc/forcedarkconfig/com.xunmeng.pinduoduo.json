@@ -1,4 +1,5 @@
 {
   "packageName": "com.xunmeng.pinduoduo",
-  "forceDark": false
+  "forceDark": true,
+  "mainRule": 128
 }

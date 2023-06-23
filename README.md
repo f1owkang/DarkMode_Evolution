@@ -1,4 +1,4 @@
-# DarkMode Evolution 23.2.9
+# DarkMode Evolution 23.6.23
 
 ## 重要：全新~~次世代版本~~兼容 MIUI14/13，可能出现 自动重启到recovery和卡第一屏 问题
 ## 支持应用
@@ -12,22 +12,21 @@
 - 😔支付宝（com.eg.android.AlipayGphone）
 - 😋什么值得买（com.smzdm.client.android）
 - 😔抖音（com.ss.android.ugc.aweme）
-- ？拼多多（com.xunmeng.pinduoduo）
+- 😋拼多多（com.xunmeng.pinduoduo）
 - ？高德地图（com.autonavi.minimap）
 - 更多应用请参见模块目录内置配置文件
 
 ## 其他事项
 
 - 全新版本，~~超稳定的~~兼容性
-- 已经修复无法刷入的BUG
-- 本次已装载最新MIUI14配置
+
 - 详细更新请参见changelog.md
 
 ## 已知问题
 
 - 部分应用自MIUI14以来已失效，努力解决中
 
-- 抖音（com.ss.android.ugc.aweme）用户报告聊天页面看不清，移除聊天深色。请在 设置-背景设置 切换为经典。
+- 抖音（com.ss.android.ugc.aweme）内测版提供深色模式。
 
 ## 如何使用
 

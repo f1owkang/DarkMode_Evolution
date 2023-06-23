@@ -1,4 +1,5 @@
 [
+{"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.mihoyo.hyperion","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.dmzjsq.manhua","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"com.rhmsoft.edit.pro","showInSettings":true},
 {"defaultEnable":false,"overrideEnableValue":0,"packageName":"pansong291.xposed.quickenergy","showInSettings":true},
