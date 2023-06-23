@@ -75,6 +75,7 @@ A : 假设您需要添加一个增强应用深色配置文件，您首先查询�
 - GITHUB@MidNightBlackCat 
 - GITHUB@dreamflandre
 > https://github.com/dreamflandre/DarkP/releases
+- 酷安支持我的小伙伴们
 
 如果你喜欢我这个项目，请多多提交Pr吧，谢谢！
 
